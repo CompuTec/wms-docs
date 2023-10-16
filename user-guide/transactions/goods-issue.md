@@ -28,3 +28,37 @@ Click the menu icon and then the plus icon to add Items to the document.
 
 You can scan an Item or SU code in this form, with or without a prefix.
 
+The list of available Items will be displayed. Click a desired Item to add it to the document.
+
+![List of Items](./media/goods-issue-list-of-items.png)
+
+![List of Items](./media/goods-issue-list-of-items-new.png)
+
+Click the Item row to set its details.
+
+![Highlight](./media/goods-issue-list-of-items-highlight.png)
+
+If the Item is managed by serial numbers, a form for choosing it will be displayed.
+
+![Serials](./media/goods-issue-serials.png)
+
+If the Item is managed by Batches, a form for choosing it will be displayed. Click a desired batch to choose from it.
+
+![Batch](./media/goods-issue-batch.png)
+
+A form for setting quantity will be displayed.
+Type in a desired value or set it using the plus and minus buttons and click the right arrow to approve changes.
+
+![Quantity](./media/goods-issue-quantity.png)
+
+Click the menu icon and then the Storage Unit icon to add a Storage Unit.
+
+![Add](./media/goods-issue-add.png)
+
+The form for choosing Storage Units will be displayed.
+Click a desired Storage Unit to add it to the document.
+
+![SU](./media/goods-issue-storage-info.png)
+
+Click the right arrow icon after setting all the details.
+
