@@ -62,3 +62,14 @@ Click a desired Storage Unit to add it to the document.
 
 Click the right arrow icon after setting all the details.
 
+![Ready](./media/goods-issue-details-ready.png)
+
+Set the series (if it is preset and required), add Remarks (if needed), and click the save icon.
+
+![Remarks](./media/goods-issue-remarks.png)
+
+A communication about the document's creation (with its number) will be displayed.
+
+![Final message](./media/goods-issue-final.png)
+
+Click OK. The newly created document is now available in the SAP Business One system.
