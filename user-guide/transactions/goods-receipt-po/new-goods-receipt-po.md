@@ -31,9 +31,8 @@ Adding an SU without a previously chosen Warehouse:
 
 ![Details](./media/new-grpo-document-details-add-3.png)
 
-![Details](./media/new-grpo-su-details)
+![Details](./media/new-grpo-su-details.png)
 
 ![Details](./media/new-grpo-su-details-warehouse.png)
 
 An SU has been added to the document. Now you can add Items to it (manually or by scanning a barcode).
-
