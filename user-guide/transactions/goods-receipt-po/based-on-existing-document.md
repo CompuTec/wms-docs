@@ -50,4 +50,14 @@
 
   ![Document Details](./medi/from-base-SU-within-SU.png)
 
-  
+9. Items added fully are moved to the end of the list.
+
+  ![Document Details](./media/from-base-fully-added-items.png)
+
+10. You can go to the Remarks when the document is complete.
+
+  ![Document Details](./media/from-base-ready.png)
+
+11. Remarks.
+
+  ![Document Details](./media/from-base-remarks.png)
