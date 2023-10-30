@@ -31,7 +31,7 @@ Adding an SU without a previously chosen Warehouse:
 
 ![Details](./media/new-grpo-document-details-add-3.png)
 
-![Details](./media/new-grpo-su-details)
+![Details](./media/new-grpo-su-details.png)
 
 ![Details](./media/new-grpo-su-details-warehouse.png)
 
@@ -84,4 +84,3 @@ Now you can check the document details:
 Now you can check the Remarks and Save the document (the lower right icon):
 
 ![Details](./media/new-grpo-document-remarks.png)
-
