@@ -6,7 +6,7 @@ The SAP Production Issue function is unavailable if ProcessForce is installed on
 
 :::
 
-To create a SAP Production Receipt, click SAP Production Receipt in the main menu:
+To create an SAP Production Receipt, click SAP Production Receipt in the main menu:
 
 ![Start](./media/SAPProductionReceipt.png)
 
