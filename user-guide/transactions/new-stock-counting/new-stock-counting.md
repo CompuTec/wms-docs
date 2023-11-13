@@ -282,3 +282,115 @@ The way of adding an Item is the same as in the case of adding Items that are no
 
 You can change a location of an SU (with its content) by clicking the following icon and choosing another Warehouse (this applies only to the highest-level SUs):
 
+![SU Document Details](./media/stock-counting-su-document-details-warehouse.png)
+
+![Warehouse and Bin](./media/stock-counting-su-document-details-warehouse-save.png)
+
+![SU Document Details](./media/stock-counting-su-document-details-warehouse-date.png)
+
+You can add an SU to another SU by clicking this icon:
+
+![SU Document Details](./media/stock-counting-su-second-level-su.png)
+
+You can add an existing SU or click the right arrow icon to create a new one.
+
+![Add SU](./media/stock-counting-su-exisitng.png)
+
+You can access a lower-level SU by entering its line in the higher-level SU:
+
+![SU Document Details](./media/stock-counting-su-line.png)
+
+Here you can delete only a lower-level SU (with its content):
+
+![SU Document Details](./media/stock-counting-su-remove.png)
+
+Adding Items works the same way as in the highest-level SU case.
+
+### Scanning
+
+You can scan an SU barcode only in the Add SU form:
+
+![Add SU](./media/stock-counting-scan-su.png)
+
+Prefix 93 for an SU Code, e.g. (93)00000000000000000016
+
+Prefix 00 for an SSCC, e.g. (00)0000000000000154
+
+Upon scanning a code, you will get information (not present in the system or already added in this or another document), or the system will move to a related Warehouse.
+
+Wybranie palety już dodanej na oknie List of SUs
+
+Choosing an already added SU in the List of SUs form:
+
+![List of SUs](./media/stock-counting-scan-list-of-sus.png)
+
+Dodawanie indeksów poprzez skanowanie
+
+Adding Items by scanning:
+
+Possible cases:
+
+In the Document details form:
+
+![Document Details](./media/stock-counting-scan-adding-items-by-scanning.png)
+
+Scan a Warehouse code, an Item code and a quantity code.
+
+You can add a Warehouse along with Bin location in the code.
+
+![Quantity](./media/stock-counting-scan-adding-items-warehouse-bin.png)
+
+![Quantity](./media/stock-counting-scan-adding-items-warehouse-bin2.png)
+
+Click the save icon to approve.
+
+Scanning with the 01(GS1GTIN) code:
+
+![Quantity](./media/stock-counting-scan-adding-items-prefix-01.png)
+
+Item code and quantity scanning:
+
+![Document Details](./media/stock-counting-scan-adding-items-quantity.png)
+
+Scan quantity always after entering an Item line:
+
+![Counted Quantity](./media/stock-counting-scan-adding-items-quantity-item-line.png)
+
+![Quantity](./media/stock-counting-scan-adding-items-quantity-item-line2.png)
+
+Batch scanning:
+
+Warehouse, Item, Batch, and Quantity:
+
+![Quantity](./media/stock-counting-scan-warehouse-item-batch-quantity.png)
+
+![Document Details](./media/stock-counting-scan-warehouse-item-batch-quantity2.png)
+
+Batch and quantity:
+
+![Batches](./media/stock-counting-scan-warehouse-batch-quantity.png)
+
+Only quantity:
+
+![Quantity](./media/stock-counting-scan-quantity.png)
+
+Only Batch:
+
+![Quantity](./media/stock-counting-scan-batch.png)
+
+Scanning a Serial Number:
+
+Warehouse, Item, Serial Number.
+
+![Serials](./media/stock-counting-scan-warehouse-item-serial.png)
+
+Item and Serial Number.
+
+![Serials](./media/stock-counting-scan-item-serial.png)
+
+Only Serial Number in the Serial Numbers form and when adding a new one:
+
+![Serials](./media/stock-counting-scan-serial.png)
+
+![Serials](./media/stock-counting-scan-serial2.png)
+
