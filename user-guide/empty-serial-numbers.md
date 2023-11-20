@@ -123,3 +123,89 @@ Here, you can find a description of managing Empty Serial Numbers Items through 
 #### In SAP Business One
 
 ![Serial Number](./media/delivery-from-sales-order-named-9.png)
+
+## Pick and Pack
+
+(In this transaction, it is not possible to choose Serial Numbers; it is only possible to choose it.)
+
+Warehouses without Bin Locations are supported.
+
+Preallocation when choosing the following option:
+
+![Option](./media/option.png)
+
+Or Bin Locations when this option is turned on:
+
+![Bin Location](./media/bin-location-1.png)
+
+![Bin Location](./media/bin-location-2.png)
+
+![Pick Lists](./media/bin-location-3.png)
+
+- With preallocation:
+
+  ![Storage Info](./media/with-preallocation-1.png)
+
+  ![Quantity](./media/with-preallocation-2.png)
+
+  ![Document Details](./media/with-preallocation-3.png)
+
+- Without preallocation
+
+  ![Storage Info](./media/without-preallocation-1.png)
+
+  ![From Bin](./media/without-preallocation-2.png)
+
+Let's choose, e.g., one named (empty Serial Numbers, and the one on the list must always be chosen separately, meaning you cannot pick one already called and one empty and proceed).
+
+![Serials](./media/without-preallocation-3.png)
+
+Let's choose the next three from the same location (different Bins):
+
+![Storage Info](./media/without-preallocation-4.png)
+
+![Serials](./media/without-preallocation-5.png)
+
+![Empty Serials Wizard](./media/without-preallocation-6.png)
+
+![Serials](./media/without-preallocation-7.png)
+
+![Storage Info](./media/without-preallocation-8.png)
+
+![Empty Serials Wizard](./media/without-preallocation-9.png)
+
+![Storage Info](./media/without-preallocation-10.png)
+
+![Document Details](./media/without-preallocation-11.png)
+
+In the next step, it is possible to go to Delivery from the Pick List and create a Delivery document:
+
+![Document](./media/delivery-from-pick-list-1.png)
+
+![Document Details](./media/delivery-from-pick-list-2.png)
+
+![Storage Info](./media/delivery-from-pick-list-3.png)
+
+![Empty Serials Wizard](./media/delivery-from-pick-list-4.png)
+
+![Storage Info](./media/delivery-from-pick-list-5.png)
+
+![Serials](./media/delivery-from-pick-list-6.png)
+
+![Storage Info](./media/delivery-from-pick-list-7.png)
+
+![Serials](./media/delivery-from-pick-list-8.png)
+
+![Empty Serials Wizard](./media/delivery-from-pick-list-9.png)
+
+![Serials](./media/delivery-from-pick-list-10.png)
+
+![Storage Info](./media/delivery-from-pick-list-11.png)
+
+![Document Details](./media/delivery-from-pick-list-12.png)
+
+![Remarks](./media/delivery-from-pick-list-13.png)
+
+The result Delivery in SAP Business One:
+
+![Serial Number Transaction Report](./media/result-delivery-in-sapb1.png)
