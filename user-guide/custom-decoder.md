@@ -306,29 +306,92 @@ Back – go back to the previous window.
 
 ## Examples
 
-    The scanned code consists of the following URL address: https://address.com/ItemCode/BatchNumber/dd-mm-yyyy.
-    From this address, we want to get and pass to CompuTec WMS: Item Code, Batch Number, and Expire Date and convert the date to YYMMDD format.
-        Create a new decoder.
-        Create the following variables:
-            Internal variables:
-                Day
-                Month
-                Year
-            Output variables:
-                BatchNumber (GS1 Code 10, pass to output: enabled)
-                ItemCode (GS1 Code 91, pass to output: enabled)
-                ExpireDate (GS1 Code 17, pass to output: enabled)
-        Create the following rules:
-            Regexp type rule (rule name 1)
-                Set the input variables to BARCODE.
-                Set the following output variables: BatchNumber, ItemCode, Day, Month, Year.
-                Set the following for the regular expressions: ^https?:\/\/.*?\/(?<ItemCode>[^\/]+)\/(?<BatchNumber>[^\/]+)\/(?<Day>\d{2})-(?<Month>\d{2})-(?<Year>\d{4})$
-            An SQL-type rule (rule name 2)
-                Set the following input variables: Day, Month, Year.
-                Set the following output variables: ExpireDate.
+1. The scanned code consists of the following URL address: https://address.com/ItemCode/BatchNumber/dd-mm-yyyy.
 
-                For the SQL query, set:
+  From this address, we want to get and pass to CompuTec WMS: Item Code, Batch Number, and Expire Date and convert the date to YYMMDD format.
+
+    a. Create a new decoder.
+
+    b. Create the following variables:
+            
+            i. Internal variables:
+
+                1. Day.
+
+                2. Month.
+
+                3. Year
+
+            ii. Output variables:
+
+                1. BatchNumber (GS1 Code 10, pass to output: enabled).
+
+                2. ItemCode (GS1 Code 91, pass to output: enabled).
+
+                3. ExpireDate (GS1 Code 17, pass to output: enabled).
+
+    c. Create the following rules:
+
+            i. Regexp type rule (rule name 1)
+
+                1. Set the input variables to BARCODE.
+
+                2. Set the following output variables: BatchNumber, ItemCode, Day, Month, Year.
+
+                3. Set the following for the regular expressions: ^https?:\/\/.*?\/(?<ItemCode>[^\/]+)\/(?<BatchNumber>[^\/]+)\/(?<Day>\d{2})-(?<Month>\d{2})-(?<Year>\d{4})$.
+
+            ii. An SQL-type rule (rule name 2).
+
+                1.  Set the following input variables: Day, Month, Year.
+
+                2. Set the following output variables: ExpireDate.
+
+                3. For the SQL query, set:
 
                 ```sql 
                 SELECT Right('@Year',2) || '@Month' || '@Day' as "ExpireDate" FROM DUMMY
                 ```
+
+    d. Save rules and decoder.
+
+    e. Test.
+
+    ![Test](./media/wms-decoder-testing-2.png)
+
+2. The scanned code has the 3202 prefix, which is not supported in CompuTec WMS by default. We want this data to be recognized as quantity with two last singes as decimal places.
+
+  a. Create a decoder.
+
+  b. Create the following variables (check the USE GS1 Decoder option)
+
+      i. Input variables:
+
+        InputQuantity (GS1 Code 3202).
+
+      ii. Output variables:
+
+        Quantity (GS1 Code Quantity, pass to output: enabled)
+
+  c. Create the following rules:
+
+    i. An SQL-type rule (rule name 1)
+
+      1. Set input variables to InputQuantity.
+
+      2. Set output variables to Quantity.
+      
+      3.   Set the following SQL query:
+
+      ```sql
+
+      SELECT CASE WHEN LENGTH('@InputQuantity') > 0 THEN LEFT('@InputQuantity',4) || '.' || RIGHT('@InputQuantity', 2) ELSE '' END AS "Quantity" FROM DUMMY
+
+      ```
+
+  d. Save rules and decoder.
+
+  e. Test.
+
+  ![Barcode Definition](./media/wms-decoder-testing-3.png)
+
+  
