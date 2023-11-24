@@ -69,3 +69,131 @@ You should request CompuTec Support assistance by posting an issue within the Su
 
 ## Data is not displayed correctly
 
+![WMS](./media/wms-decimals-places.png)
+
+If any data record displayed on a screen is too long, it is 'cut' with the rest represented by '...'. In these cases, you can click and hold the row, and the full name will be displayed:
+
+![Storage Info](./media/CutIndex.png)
+
+![Storage Info](./media/CutQuantity.png)
+
+## Cannot Install CompuTec WMS objects to a database
+
+On an attempt to install CompuTec WMS objects to a database (you can check how to do this here), you get the following system message:
+
+:::info
+
+The installation requires a manually created procedure in the database.
+
+Please copy the query and execute it in SAP Hana Studio before continuing.
+
+:::
+
+![Alert](./media/Alert.png)
+
+This system message appears upon attempts to install the CompuTec WMS object on a new database in the HANA version.
+
+### Fix
+
+1. Click 'Copy to Clipboard' on the system message form.
+
+2. Run SAP HANA STUDIO.
+
+3. Choose a required database, then 'Open SQL Console.'
+
+4. Paste the previously copied text and save the configuration.
+
+5. Retry to Install CompuTec WMS objects (check here how to do this).
+
+## Error message: Error when installing CompuTec WMS objects. Please check the logs for details
+
+### Prerequisites
+
+A CompuTec WMS installation on a “fresh” database (without previous CompuTec WMS installation).
+
+### Reproduction
+
+    1. Try to open Custom Configuration.
+
+    2. A system message: Error. Please install WMS objects first.
+
+    3. Try to install CompuTec WMS error.
+
+    4. Error message: Error when installing CompuTec WMS objects. Please check the logs for details.
+
+### Fix
+
+Restart the server or try to install the CompuTec WMS objects again.
+
+## PF Database Version is not supported. Please update the Database or Reinstall the API.Setup
+
+### Cause
+
+ProcessForce version installed on the database differs from the ProcessForce API version.
+
+### Fix
+
+You can either:
+
+- install ProcessForce API to the correct version
+
+- install ProcessForce in the same version as API.
+
+For the mentioned installers, check the [ADD LINK] Download page.
+
+## System.Exception: :Error: Internal error (-10) occurred:Error: Internal error (-10) occurred:Error: Internal error (-10) occurred error in a log file
+
+If this error occurs in a log file in this location: C:\ProgramData\CompuTec\ServiceManager\Logs, it is required to register the following objects in a related database manually:
+
+- CT_WMS_OCCT
+
+- CT_WMS_OVDA
+
+- CT_WMS_OWTT
+
+## The info icon does not work
+
+On all transactions where you can choose an Item managed by Batches or Serial Numbers, an Info icon leads to additional Batch/Serial Numbers information. In some cases, nothing happens when you click it, and no system message is displayed. In cases like this, check if there is any User Defined Field configured for Batch/Serial Number Object (the button is not responsive when there are no UDFs defined).
+
+## WMS Server Installation Error
+
+### Reproduction
+
+An error occurs during the installation of the CompuTec WMS Server:
+
+![Error](./media/screenshot-1.png)
+
+### Fix
+
+The error has been fixed in the 2.10.9 version.
+
+In previous versions, please download this file, unpack it, and place (the whole folder) in the following directory: C:\ProgramData.
+
+## Error. Please install SAP HANA ODBC Driver / ODBC 13 for SQL Server first
+
+### Reproduction
+
+Click "Save" or "Refresh" on WMS Server Settings
+
+### Fix
+
+After pressing "Save" or "Refresh" on WMS Server Settings, it is checked whether SAP Business One DI API and ODBC Driver - respective to the selected server type, are installed.
+
+| Server Type                  | ODBC Driver REquired          | Download Link                                                                                                |
+|------------------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------|
+| MSSQL (through 2008 to 2017) | ODBC Driver 13 for SQL Server | https://www.microsoft.com/en-us/download/details.aspx?id=50420                                               |
+| SAP HANA                     | SAP HANA ODBC Driver          | https://help.sap.com/viewer/e9146b36040844d0b1f309bc8c1ba6ab/3.2/en-US/734759c0c1c9440c857da0d366e47dda.html |
+
+A proper Exception/Error is shown in the ServiceManager Log when one of the above drivers is missing.
+
+## Motorola MC65: problem with scanning with RDP and DataWedge
+
+### Example
+
+1. In DataWedge Demo, the code is scanned correctly.
+
+2. With an RDP connection and scanning to a notepad, a part of a code is removed. Originally: (10)21055(95)1(95)C00312, actually scanned: (10)21(95)1(95)C00312. Part of a GS1 code is missed.
+
+### Solution
+
+Please note that the Motorola MC65 device is no longer supported by its producer.  However, Motorola support suggested (as best effort only) using Interchar Delay (DataWedge option) to slow down RDP data sending to a host.
