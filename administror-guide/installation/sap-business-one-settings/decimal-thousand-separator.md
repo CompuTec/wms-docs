@@ -26,7 +26,7 @@ Decimal/thousands of separators in CompuTec WMS, desktop client, are taken from 
 
 2. Select Region (and Language).
 
-3. On the Formats tab, press Additional settings...
+3. On the Formats tab, click Additional settings...
 
 4. On the Numbers tab, change the Decimal symbol.
 

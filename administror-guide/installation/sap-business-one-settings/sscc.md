@@ -4,7 +4,7 @@ Serial Shipping Container Code (SSCC) is widely used to identify logistics units
 
 To set the SSCC definition, open the following directory in the SAP Business One menu (the form is available after installation of CompuTec WMS):
 
-    **Path**
+    Path
     Stock Management → SSCC Definition
 
 ## Code
@@ -22,4 +22,3 @@ A unique prefix set for a specific company.
 ## Serial reference
 
 Setting a number here will define a series of numbers. Setting 000000001 will start a series of numbers (the following automatically assigned number is 000000001, 000000002, 000000003, etc.). It is possible to set a higher number to adjust it to a previous series used in a company.
-

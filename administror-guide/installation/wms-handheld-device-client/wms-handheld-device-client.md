@@ -52,5 +52,3 @@ DataWedge service has to be turned off on Motorola and Symbol devices for the ap
 4. The installation is complete when the installation form is gone. Go to the Programs menu and choose the CompuTec WMS icon to start the application.
 
     [Data Wedge](./media/data-wedge-wms.png)
-
-    

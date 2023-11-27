@@ -12,7 +12,7 @@ Please be sure to fulfill [the prerequisites](./../prerequisites.md) before star
 
 1. To run the CompuTec WMS desktop version, you must install a server and client modules.
 
-2. To install the server, download and run its installation file. You can find it [here](ADD LINK).
+2. To install the server, download and run its installation file.
 
     :::caution
 
@@ -98,7 +98,7 @@ Please be sure to fulfill [the prerequisites](./../prerequisites.md) before star
 
     13. Companies on all servers. **Right-click on a specific company row to get to its context menu**. The following options are available:
 
-        a. **Install WMS Objects**. Click this option to install to the database CompuTec WMS objects (tables, fields) required for the application's good work. **This procedure is necessary to be performed before starting work with CompuTec WMS**. Click the option and put in database credentials to start the procedure. The object installation procedure is slightly different when using a new database in the HANA version. You can check it out [here](ADD LINK).
+        a. **Install WMS Objects**. Click this option to install to the database CompuTec WMS objects (tables, fields) required for the application's good work. **This procedure is necessary to be performed before starting work with CompuTec WMS**. Click the option and put in database credentials to start the procedure. The object installation procedure is slightly different when using a new database in the HANA version. You can check it out [here](./../../../).
 
         b.Open Custom Config. It leads to Custom Configuration options.
 

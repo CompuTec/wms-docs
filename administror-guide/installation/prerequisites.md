@@ -31,7 +31,7 @@ We recommend you install the latest version of .NET Framework – you can do it 
 
 ## User Defined Objects
 
-You can check how to install the CompuTec WMS objects to a database [here](ADD LINK).
+You can check how to install the CompuTec WMS objects to a database [here](./wms-server/wms-server.md).
 
 ### Custom Batch UDFs
 
@@ -43,7 +43,7 @@ To correctly handle custom Batch UDFs in CompuTec WMS with ProcessForce installe
 
 - "@CT_PF_PRE2" (for picked but not receipted Batches)
 
-Click [here](ADD LINK) to find out more about working with UDFs in ProcessForce.
+Click [here](./../../../processforce-docs/administrator-guide/udfs.md) to find out more about working with UDFs in ProcessForce.
 
 ## SAP Business One DI API
 
@@ -123,13 +123,13 @@ The supported database servers are:
 
 ## CompuTec ProcessForce API
 
-If ProcessForce is installed, CompuTec WMS requires CompuTec ProcessForce API 32-bit or 64-bit (depending on CompuTec WMS version) to work correctly. You can download it from here. ProcessForce API has to be in the exact version as ProcessForce installed on the database).
+If ProcessForce is installed, CompuTec WMS requires CompuTec ProcessForce API 32-bit or 64-bit (depending on CompuTec WMS version) to work correctly. ProcessForce API has to be in the exact version as ProcessForce installed on the database).
 
 ## Preparing environment: Installation order
 
 :::danger
 
-Please bear in mind that installing in order other than presented below may cause problems with operating CompuTec WMS.
+Please remember that installing in order other than presented below may cause problems with operating CompuTec WMS.
 
 :::
 
