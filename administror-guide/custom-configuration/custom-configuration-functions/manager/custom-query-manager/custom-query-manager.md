@@ -15,3 +15,12 @@ Custom Query Manager allows to put additional information to specific screens in
 3. Choose a required transaction from a drop-down list and click Load.
 
 4. Checking Use default query option blocks the creation/editing of a query and the default query is used:
+
+![Custom Configuration Query](./media/cc-query.png)
+
+![Custom Query](./media/custom-query.png)
+
+Unchecking the option allows you to create your own query or edition of the default one:
+
+![Query Parameters](./media/cc-query-parameters.png)
+
