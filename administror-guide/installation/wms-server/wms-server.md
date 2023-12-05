@@ -110,7 +110,7 @@ Please be sure to fulfill [the prerequisites](./../prerequisites.md) before star
 
         f. Import CC Settings/Export CC Settings. Use the export option to export the CC Settings to a file. You can then use the import option to import it, e.g., on another server.
 
-        g. Barcode Decoder - Export/Import Decoder Settings. You can export and import Barcode Decoder settings (values set in [Decoder Definitions](ADD LINK)) here.
+        g. Barcode Decoder - Export/Import Decoder Settings. You can export and import [Barcode Decoder settings](./../../../user-guide/custom-decoder.md) the values set in Decoder Definition here.
 
     14. Check this option to operate with the SAP Multi-Tenant option. After checking the option, click Register Servers. In the new form, click the last (empty) row, enter the server's IP address in Multi-Tenant, check its checkbox, and click Save.
 

@@ -135,7 +135,7 @@ Under Intent Extra key Data set: com.motorolasolutions.emdk.datawedge.data_strin
 
 To properly handle scanning barcodes, you must enable Intent Output in your device's Scanner options. Then, you must set Intent Action and Intent Extra key Data (if available).
 
-In Intent action set: barcodescanner.RECVR - this is an action under which CompuTec WMS receives data from the scanner.
+In Intent action set: barcode scanner.RECVR - this is an action under which CompuTec WMS receives data from the scanner.
 
 Under Intent Extra key Data set: com.motorolasolutions.emdk.datawedge.data_string - this is the default key that CompuTec WMS uses to extract barcodes from Intent data.
 

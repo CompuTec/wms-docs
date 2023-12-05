@@ -67,12 +67,24 @@ Close DataWedge.
 
 Run the remote desktop application, log in, and run CompuTec WMS.
 
+![WMS Settings](./media/wms-settings.jpg)
+
 Next, click Settings and go to the Scanner tab. Prefixes and suffixes will be set up here.
 
+![WMS Scanner](./media/wms-scanner.jpg)
+
+![WMS Mark](./media/wms-settings-mark.jpg)
+
 Save and log in to CompuTec WMS.
+
+![Main Menu](./media/wms-main-menu.jpg)
 
 Check if the scanner is calling out works. To do this, go to Goods Receipt PO → New Goods Receipt PO.
 
 Scan any barcode (e.g., from everyday products) in the Warehouse window. The application should give a system message about incorrect code. This is a required behavior as it shows that the device called out the scanner action.
+
+![WMS Warehouse](./media/wms-warehouse.jpg)
+
+![WMS Confirmation](./media/wms-confirmation.jpg)
 
 Next, test it on barcodes used in your company.

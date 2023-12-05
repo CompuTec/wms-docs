@@ -56,7 +56,7 @@
 
 ## SAP Production Receipt tab
 
-![Custom Configurationn](./media/custom-configuration-production-sap-production-receipt.jpg)
+![Custom Configuration](./media/custom-configuration-production-sap-production-receipt.jpg)
 
 **8After picking, auto return to:** – defines to which form the application goes back after confirmation of receipt on a document line. The available options: Document Details and Item Details
 

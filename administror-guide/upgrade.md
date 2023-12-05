@@ -23,4 +23,3 @@ To upgrade WMS to a newer version, perform the following steps:
 3. Perform the installation procedure described here using new files.
 
     Please fulfill the requirements and install both WMS Server and WMS Client components.
-

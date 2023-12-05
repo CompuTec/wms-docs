@@ -8,7 +8,7 @@
 
 **Enable adding Item Details when Warehouse has Bin Locations** – allows adding Item details when in a Warehouse receipt, Bin locations are defined.
 
-**Pick Items only with scanning** – allows picking Item only by scanning a barcode (cannot choose an Item manually)
+**Pick Items only with scanning** – allows picking an Item only by scanning a barcode (cannot choose an Item manually)
 
 **Force Manual quantity confirmation** – with this option checked, it is required to manually confirm previously set up quantity (scanning a barcode does not confirm it automatically)
 

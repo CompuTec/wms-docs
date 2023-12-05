@@ -33,5 +33,3 @@ b. With SSL (add HTTPS and change the port):
 c. The corresponding settings (SSL or non-SSL) must be set. Do the same on the mobile device:
 
   ![SSL](./media/SSL.png)
-
-  

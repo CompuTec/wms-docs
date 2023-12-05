@@ -16,7 +16,7 @@ The new Stock Counting is created based on an empty document created in CompuTec
 
 **Auto add SU content** – checking this checkbox allows you to add a whole Storage Unit (with its content).
 
-**Fill SU content during Saving to SAP** – checking this option, all the Items in the SU are saved only after clicking the Save to SAP button (not during specific lines).
+  **Fill SU content during Saving to SAP** – checking this option, all the Items in the SU are saved only after clicking the Save to SAP button (not during specific lines).
 
 ## Old Stock Counting
 

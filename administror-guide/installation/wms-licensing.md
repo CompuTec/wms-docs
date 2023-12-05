@@ -11,7 +11,7 @@ WMS licensing is based on server and terminal licenses. Here, you can find a des
 
     ![CompuTec Service Manager](./media/computec-service-manager.png)
 
-3. Click 'PDC/WMS Licensing' on the licenses form where you can set details of server/terminal licenses:
+3. Click 'PDC/WMS Licensing' in the licenses form where you can set details of server/terminal licenses:
 
     ![Licensing](./media/computec-service-manager-licensing.png)
 
@@ -28,7 +28,7 @@ WMS licensing is based on server and terminal licenses. Here, you can find a des
 
 7. One of the three communications will appear:
 
-    - License appears to be valid – license is loaded from an appropriate file,
+    - License appears to be valid – the license is loaded from an appropriate file,
     - License appears to be invalid – invalid license file loaded,
     - License not found – the wrong file is loaded for a license.
 

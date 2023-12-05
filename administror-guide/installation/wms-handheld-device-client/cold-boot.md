@@ -54,4 +54,4 @@ To keep CompuTec WMS configuration available after a cold boot, perform the foll
 
 2. Add the following line to wms.CPY file:
 
-    \application\app.config > \Program Files\CompuTec WMS 1.0.0\app.config
+        \application\app.config > \Program Files\CompuTec WMS 1.0.0\app.config

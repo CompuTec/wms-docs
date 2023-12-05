@@ -8,13 +8,13 @@
 
 **Extra Field for barcode prefix** – this option allows to definition a prefix. Scanning a barcode with this prefix allows one to move to another step in the transaction.
 
-**Enable Dispatch Control for Selected BPs only** – this option allows to define Dispatch Control only for some previously selected Business Partners.
+**Enable Dispatch Control for Selected BPs only** – this option allows the definition of Dispatch Control only for some previously selected Business Partners.
 
 **Enable Dispatch Control for all Business Partners** – allows defining Dispatch Control for every Business Partner.
 
 **Enable DocNum scanning on the Delivery selection window** – allows scanning by document number (by content, if the checkbox is unchecked)
 
-**Check Items by quantity per package** – allows to check Items by quantity by packaging, e.g., if there are four packagings, 25 pieces each, a user will not be able to scan 100 parts, but to scan 25 pieces four times.
+**Check Items by quantity per package** – allows to check Items by quantity by packaging, e.g., if there are four packages, 25 pieces each, a user will not be able to scan 100 parts, but to scan 25 pieces four times.
 
 **Don't check Item when Package Number Not Filled Up** – when this checkbox is checked, a row is not checked if a number of packaging is incomplete.
 

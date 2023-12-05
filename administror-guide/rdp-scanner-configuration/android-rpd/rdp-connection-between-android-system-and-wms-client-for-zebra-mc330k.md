@@ -25,3 +25,17 @@
 9. Your device is available on your PC.
 
     ![Download](./media/microsoft-download.png)
+
+10. Copy the APK File to the folder Download.
+
+11. Go to Device/MENU/Files/Download/Select APK File (Microsoft Remote Desktop)/Select Continue/Select Install/OK
+
+12. Go to Device/Menu/RD Client/Select Button "+" to add New Connection/Select Desktop Connection/Add Manually.
+
+13. Enter the Hostname or IP address of your PC with WMS Client
+
+14. You can enter User and Password to log in every time with the same credentials.
+
+15. Save.
+
+16. Select Connection.

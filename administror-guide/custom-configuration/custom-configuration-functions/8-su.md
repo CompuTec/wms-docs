@@ -2,7 +2,7 @@
 
 ![SU](./media/cc-su.png)
 
-**Quantity showed on WMS Item Lists** – checking this checkbox results in displaying quantity packed in a SU.
+**Quantity showed on WMS Item Lists** – checking this checkbox results in displaying quantity packed in an SU.
 
 **SU FIFO type** allows setting the date to be created/displayed on a new SU. Options are SU creation date or creation date of the Items in the SU.
 

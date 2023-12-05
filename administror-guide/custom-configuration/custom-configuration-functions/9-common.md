@@ -10,9 +10,9 @@
 
 **Select printer on CompuTec WMS client each time a new user logs** in – self-explanatory
 
-**Retrieve printer data for each user from SAP settings** – CompuTec Labels related option (available only when the ‘CT Labels web address’ option is checked). By default, choosing from options available in the WMS CompuTec client is possible. When this checkbox is checked, information on printers is taken from SAP Business One setting
+**Retrieve printer data for each user from SAP settings** – CompuTec Labels-related option (available only when the ‘CT Labels web address’ option is checked). By default, choosing from options available in the WMS CompuTec client is possible. When this checkbox is checked, information on printers is taken from SAP Business One setting
 
-**Retrieve printer name from SQL Query in CompuTec Labels** – a name of a printer is taken from SQL query set up in CompuTec Labels settings instead of taking it from SAP Business One or CompuTec WMS
+**Retrieve printer name from SQL Query in CompuTec Labels** – the name of a printer is taken from SQL query set up in CompuTec Labels settings instead of taking it from SAP Business One or CompuTec WMS
 
 **Display printing buttons** – shows a button for label printing for specific functions
 
@@ -30,13 +30,13 @@
 
 **Only picked quantity to be saved to Draft Documents** – only picked quantity is saved in document draft
 
-**Document Numbering Series selection on the first window** – enables to choose a document series on a first screen of a transaction
+**Document Numbering Series selection on the first window** – enables to choose a document series on the first screen of a transaction
 
 **Display switch to PDC button** – displays a button to switch to PDC
 
 **Delete draft document after document save (default document will be closed)** – self-explanatory
 
-**TimeLog: Collect data about action arguments** – saves the whole object send to the server in TimeLog. It is an extension of the TimeLog option: log files are bigger with this option turned on, but it also allows to collect of more detailed information
+**TimeLog: Collect data about action arguments** – saves the whole object sent to the server in TimeLog. It is an extension of the TimeLog option: log files are bigger with this option turned on, but it also allows to collect of more detailed information
 
 **Enable negative quantity on UDF fields** – self-explanatory
 
