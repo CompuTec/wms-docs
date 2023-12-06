@@ -38,7 +38,7 @@ This function allows the disassembled Storage Unit to take Items from it and put
 
   ![Source SU Content](./media/6_SUShowPickedItems.jpg)
 
-7. Picked form will be displayed:
+7. The Picked form will be displayed:
 
   ![Picked Items](./media/7_SUPickedItems.jpg)
 
@@ -51,5 +51,3 @@ This function allows the disassembled Storage Unit to take Items from it and put
 9. Info message appears:
 
   ![Picked Items](./media/9_SUDisSuc.jpg)
-
-  

@@ -26,7 +26,7 @@ The order and availability of some of the forms during a document's creation may
 
 4. The Document Details window will appear.
 
-  Only the Items with a manual issue method assigned will appear. Click an Item to set its details. 
+  Only the Items with a manual issue method assigned will appear. Click an Item to set its details.
 
   If an Item row is colored red, it means there are no Items in the selected warehouse.
 

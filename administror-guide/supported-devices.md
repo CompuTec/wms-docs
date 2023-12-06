@@ -50,7 +50,7 @@ The minimum supported screen size is 240px on the shortest side of the screen.
 
 ### Google Android
 
-Click [here](ADD LINK) for more information.
+Click [here](./../administror-guide/computec-wms-android-version.md) for more information.
 
 ## Barcode scanners connected to the computer
 

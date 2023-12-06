@@ -64,7 +64,7 @@
 
   ![Document Details](./media/FTR-AddItem3.png)
 
-8. A. Clicking the '+' icon (1) leads to New Item form. Click the required Item or scan an Item code to add the item to the list.
+8. A. Clicking the '+' icon (1) leads to the New Item form. Click the required Item or scan an Item code to add the item to the list.
 
   ![New Item](./media/NewItem-023.png)
 
@@ -98,7 +98,7 @@
 
     - quantity available in the chosen location
 
-    - quantity still needed to be picked to fulfill Inventory Transfer Request
+    - quantity still needed to be picked to fulfill an Inventory Transfer Request
 
     - quantity already picked.
 
@@ -134,7 +134,7 @@
 
   ![Remarks](./media/Remarks_InvTrans3.png)
 
-14. A note about the creation of a document displays. Click "OK" to finish the transaction.
+14. A note about the creation of a document is displayed. Click "OK" to finish the transaction.
 
   ![Saved](./media/Saved3.png)
 

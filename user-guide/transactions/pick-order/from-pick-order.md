@@ -100,7 +100,7 @@ Some forms' order and availability during a document's creation may vary dependi
 
   ![Remarks](./media/Remarks01.png)
 
-10. Click the Save icon after setting all details.
+10. Click the Save icon after setting all the details.
 
   ![Remarks](./media/Remarks3.png)
 
@@ -111,4 +111,3 @@ Some forms' order and availability during a document's creation may vary dependi
   ![Created](./media/Created3.png)
 
 12. Goods Issue has been created and recorded and can be viewed in SAP Business One.
-

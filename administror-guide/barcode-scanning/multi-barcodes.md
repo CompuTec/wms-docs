@@ -1,6 +1,6 @@
 # Multi-barcodes
 
-CompuTec WMS supports multi-block barcodes. This means that it is possible to scan more than one type of data with one code, e.g. scanning one code for Item, its Batch and quantity. Just keep multi-block code consistant in the matter of used prefixes (using prefixes of one of the standard in one code).
+CompuTec WMS supports multi-block barcodes. This means that it is possible to scan more than one type of data with one code, e.g. scanning one code for an Item, its Batch and quantity. Just keep multi-block code consistent in the matter of used prefixes (using prefixes of one of the standards in one code).
 
 The barcodes used as examples on this page were generated using [this tool](https://www.free-barcode-generator.net/ean-128/).
 
@@ -18,7 +18,7 @@ We are receiving an Item with its Batch and quantity (and, optionally, with addi
 
 VIDEO
 
-These are the minimum of the information that has to be contained in a barcode for the Item do be added to the list with one scanning (e.g. on Document Details) without additional opening its row and updating information:
+These are the minimum of the information that has to be contained in a barcode for the Item to be added to the list with one scanning (e.g. on Document Details) without additional opening its row and updating information:
 
 Item, quantity, Batch (with related GS1 prefixes).
 

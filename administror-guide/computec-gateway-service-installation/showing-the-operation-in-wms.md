@@ -1,6 +1,5 @@
 # Showing the operation in WMS
 
-
   - We create goods receipt PO
 
   - We choose a warehouse
@@ -33,7 +32,7 @@
 
 ![Fields](./media/5.png)
 
-6. After clicking the save button, the balance is added (we can zero the weight and add another weight). In the last step we confirm all our operations.
+6. After clicking the save button, the balance is added (we can zero the weight and add another weight). In the last step, we confirm all our operations.
 
 ![Save](./media/6.png)
 

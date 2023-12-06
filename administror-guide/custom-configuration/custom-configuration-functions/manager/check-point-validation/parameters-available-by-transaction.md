@@ -1,10 +1,10 @@
 # Available parameters by transaction
 
-Check point:
+Checkpoint:
 
-- Add new Item on the Document
+- Add a new Item on the Document
 
-- Pick Quantity for the line 
+- Pick Quantity for the line
 
 - Before save document
 

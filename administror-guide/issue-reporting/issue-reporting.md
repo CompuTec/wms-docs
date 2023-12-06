@@ -4,7 +4,6 @@ If you have a problem with WMS application performance, please contact CompuTec 
 
 You can create an issue in the WMS Support space on support.computec.pl. Click here to visit this page. To shorten the process of WMS support, please be sure to describe a problem closely.
 
-
 To make the whole process easier, you can add the following information to the issue:
 
 - CompuTec WMS Server and Client version

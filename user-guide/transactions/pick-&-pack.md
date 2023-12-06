@@ -6,7 +6,7 @@ Pick and Pack are not supported for Items with ‘Issue Primarily by’ (SAP Bus
 
 :::
 
-**Pick Pack and Production Manager** is an SAP B1 tool that allows the processing of Sales Orders, A/R Reserve Invoices, Production Orders (and ProcessForce Manufacturing Orders), and Inventory Transfers Requests from picking Items from warehouses to sending them to a receiver. It is performed by generating and managing Pick lists and later Delivery documents.
+**Pick Pack and Production Manager** is an SAP B1 tool that allows the processing of Sales Orders, A/R Reserve Invoices, Production Orders (and ProcessForce Manufacturing Orders), and Inventory Transfer Requests from picking Items from warehouses to sending them to a receiver. It is performed by generating and managing Pick lists and later Delivery documents.
 
 ![Main Menu](./media/PickAndPack.png)
 
@@ -37,4 +37,3 @@ Pick and Pack are not supported for Items with ‘Issue Primarily by’ (SAP Bus
   ![Document Details](./media/DocDet_oneadded.png)
 
 6. You can check the document being posted in SAP Business One.
-

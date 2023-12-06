@@ -29,4 +29,3 @@ Customer-Date workflow allows one to choose Customer first and then a specific d
 6. After setting the quantities and confirming them, clicking the Next button leads to the Remarks screen.
 
     ![Remarks](./media/delivery-remarks.png)
-

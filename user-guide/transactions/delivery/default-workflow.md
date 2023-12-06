@@ -34,7 +34,7 @@ Some forms' order and availability during a document's creation may vary dependi
 
     :::
 
-    It is possible to set [ADD LINK] up a default Warehouse. In this case, the Warehouse Selection screen is skipped, and the Warehouse set as default is chosen automatically.
+    It is possible to set up a default Warehouse. In this case, the Warehouse Selection screen is skipped, and the Warehouse set as default is chosen automatically.
 
 3. The Customer Selection window will appear.
 
@@ -112,6 +112,6 @@ Some forms' order and availability during a document's creation may vary dependi
 
     ![Saved](./media/delivery-saved.png)
 
-16. A note about the creation of a document displays. Click "OK" to finish the transaction.
+16. A note about the creation of a document is displayed. Click "OK" to finish the transaction.
 
 17. The delivery is posted and is available in SAP Business One.

@@ -13,4 +13,3 @@ A new window with available fields is displayed. Check the checkboxes of the fie
 Now, on each line on Delivery, there are additional fields available:
 
 ![Additional Fields](./media/additional-fields.png)
-

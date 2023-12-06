@@ -4,7 +4,7 @@
 
 **Known Limitation**
 
-Currently, there is no Storage Unit element in the SAP Business One after installing CompuTec WMS. For a workaround, click **ADD LINK** here. 
+Currently, there is no Storage Unit element in the SAP Business One after installing CompuTec WMS. For a workaround, click [here](./storage-unit-in-sap-business-one-menu-error.md). 
 
 :::
 
@@ -13,7 +13,6 @@ Currently, there is no Storage Unit element in the SAP Business One after instal
 Goods packed in Storage Units by CompuTec WMS should not be moved in SAP Business One as it may result in data inconsistency between Storage Unit content and SAP Stock Reports.
 
 :::
-
 
 Storage Unit (SU) allows to group of Items (and their quantities) and use this group during document creation, e.g., adding an SU to a document adds all its Items.
 

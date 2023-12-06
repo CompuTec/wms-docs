@@ -201,14 +201,24 @@ The following prefixes can be used for Odette standard barcode labels creation. 
 
 ## Custom Decoder
 
-CompuTec WMS Custom Decoder offers an interpretation barcodes without prefixes. This option allows scanning of a barcode that does not have Application Identificators in GS1 or Odette standard.
+CompuTec WMS Custom Decoder offers an interpretation of barcodes without prefixes. This option allows scanning of a barcode that does not have Application Identificators in GS1 or Odette standard.
 
-To input data from a barcode without a prefix to a desired field, it is required to focus in this field.
+To input data from a barcode without a prefix to a desired field, it is required to focus on this field.
 
-In the future CompuTec WMS Team plans to implement a configurable prefix interpreter. This will allow the decoder to recognize barcode prefixes used in a specific compa
+In the future, CompuTec WMS Team plans to implement a configurable prefix interpreter. This will allow the decoder to recognize barcode prefixes used in a specific company.
 
 To use this kind of coding, choose the right option in the Server options.
 
 ## USB scanners
 
-For testing barcode scanning, you can use a dedicated application: [WMS Scanning Symulator](ADD LINK).
+WMS desktop client can be used with USB scanners. To do that, you should configure this kind of device in the following way:
+
+- scanning device adds a start text sign (Ctrl + B)
+
+- scanning device adds an end text sign (Ctrl + C).
+
+The file contains a full programming barcode for plug-in Motorola scanners guide: Download.
+
+## Barcode scanner simulator
+
+For testing barcode scanning, you can use a dedicated application: [WMS Scanning Symulator](./wms-scanning-simulator.md).

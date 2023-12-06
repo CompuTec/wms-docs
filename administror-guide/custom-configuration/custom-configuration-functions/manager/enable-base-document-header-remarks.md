@@ -32,11 +32,10 @@ This option allows to set additional fields for a header.
 
   Return PO
 
-2. Here you can put an SQL query, result of which will be displayed in the header.
+2. Here you can put an SQL query, the result of which will be displayed in the header.
 
   ![SQL Query](./media/sql-query.png)
 
-3. Upon opening the related document (Inventory Transfer from Transfer Request in this case), there is an additional button on Document details window:
+3. Upon opening the related document (Inventory Transfer from Transfer Request in this case), there is an additional button in the Document details window:
 
   ![Document Details](./media/heade-remarks.png)
-

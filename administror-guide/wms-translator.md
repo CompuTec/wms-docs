@@ -1,6 +1,6 @@
 # WMS Translator
 
-WMS Translator is an IT solution that allows you to translate CompuTec WMS application easily from its default (American English) to any other language.
+WMS Translator is an IT solution that allows you to translate CompuTec WMS easily from its default (American English) to any other language.
 
 ---
 
@@ -28,7 +28,7 @@ Use the switch at the top of the window to access WMS Client and Server translat
 
 Choose the language which you want to translate (Select language). After that, you can also browse the chosen language version by specific text. Click Load data to load the desired language.
 
-When you implement changes, you can send them to the server (by clicking Save changes). They will be stored there and added to the following official CompuTec WMS release.
+When you implement changes, you can send them to the server (by clicking Save Changes). They will be stored there and added to the following official CompuTec WMS release.
 
 The default language is a source. You cannot change it.
 
@@ -36,7 +36,7 @@ The default language is a source. You cannot change it.
 
 You can download the translation for the selected language. You can update your CompuTec WMS installation with the downloaded translation files, e.g., to test it before an official release (please remember that the files will be updated with official versions upon upgrade to the official release).
 
-To swap downloaded language files with the ones in your WMS Server and Client installation folders, you have to copy translations files to two folders:
+To swap downloaded language files with the ones in your WMS Server and Client installation folders, you have to copy translation files to two folders:
 
 - A file with a longer name:
 

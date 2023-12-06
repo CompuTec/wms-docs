@@ -12,7 +12,7 @@ Unzip the file and run it (it does not require installation).
 
 ## Usage
 
-- The simulator can be run through a remote desktop, but only one user at the time can do this (unlike CompuTec WMS, which can be used by many users simultaneously).
+- The simulator can be run through a remote desktop, but only one user at a time can do this (unlike CompuTec WMS, which can be used by many users simultaneously).
 
 - The simulator can operate on one of the barcode standards supported by CompuTec WMS: GS1, Odette. Click here to find out more.
 

@@ -32,7 +32,7 @@
 
   ![Batch](./media/Batch3.png)
 
-9. After setting the quantity that equals the To pick quantity and clicking the save icon, you get a system message about the Batch being receipted. 
+9. After setting the quantity that equals the To pick quantity and clicking the save icon, you get a system message about the Batch being receipted.
 
   ![Batch](./media/BatchReceipted3.png)
 

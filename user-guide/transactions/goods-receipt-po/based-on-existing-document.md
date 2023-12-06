@@ -22,7 +22,7 @@
 
   c. New SU button - if the Hide SU option is turned on and the Warehouse is without Bin Location, SU Details will not be displayed.
 
-  d. Tooltip, gdzie możemy dodać nowy indeks lub otwieramy menu SU. A tooltip for adding a new Item or open SU menu.
+  d. Tooltip, gdzie możemy dodać nowy indeks lub otwieramy menu SU. A tooltip for adding a new Item or opening the SU menu.
 
   ![Document Details](./media/from-base-main-document-details-su-scanned.png)
 
@@ -30,7 +30,7 @@
 
 5. In the SU adding mode and you scan an Item barcode, all the Items go to the SU marked at the top of the screen:
 
-![Document Detals](./media/from-base-upper-code.png)
+![Document Details](./media/from-base-upper-code.png)
 
 6. To leave the SU, click the top bar with its number or scan a barcode of another existing (only on this document) SU.
 

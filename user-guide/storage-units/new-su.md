@@ -39,4 +39,3 @@
 9. A new SU is created.
 
   ![Document Details](./media/NewSUCreated3.png)
- 

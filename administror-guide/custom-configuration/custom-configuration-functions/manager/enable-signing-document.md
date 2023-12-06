@@ -1,6 +1,6 @@
 # Enable Signing Document
 
-The option allows to input and save a signature for a number of documents created in CompuTec WMS.
+The option allows input and save a signature for a number of documents created in CompuTec WMS.
 
 ---
 
@@ -20,11 +20,11 @@ You can check how to do it here.
 
 ### Interface Design Manager
 
-If you are using a custom menu view in Interface Design Manager, please uncheck it checkbox and log in to all of the devices. After this you can go to the Designer and reassign the custom view. Now you can check the Signing option.
+If you are using a custom menu view in Interface Design Manager, please uncheck it checkbox and log in to all of the devices. After this, you can go to the Designer and reassign the custom view. Now you can check the Signing option.
 
 ## Usage
 
-Open Custom Configuration, go to Manager tab and check the Enable Signing Document check box. Then click the Load button next to it to choose required documents.
+Open Custom Configuration, go to Manager tab and check the Enable Signing Document check box. Then click the Load button next to it to choose the required documents.
 
 ![Enable signing document option](./media/enable-signing-document-option.png)
 

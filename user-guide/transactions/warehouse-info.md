@@ -16,7 +16,7 @@ Four options are available:
 
 Using this option, you can check the Inventory from an Item perspective.
 
-1. Choosing the Item Info option leads to the list of items. Every Item row contains the Item name, Item number, and overall quantity. 
+1. Choosing the Item Info option leads to the list of items. Every Item row contains the Item name, Item number, and overall quantity.
 
     Users can choose an Item manually by scanning or using arrows. A filter on the list can also be used for Item finding.
 
@@ -68,7 +68,7 @@ The form holds the following information: Batch name, Item name, Item number, Ex
 
 ### Serial
 
-![Batch/SErial](./media/SerialDetails5.png)
+![Batch/Serial](./media/SerialDetails5.png)
 
 Batch/Serial Details for Serial managed Item is similar to the same screen for Batch managed Item.
 
@@ -109,4 +109,3 @@ SU info is an option for Storage Unit location and contents lookup. After choosi
 The next screen contains a list of items/Storage Units currently contained in the selected SU. To check the content of the child SU, just click on it. Clicking a right arrow will move the user to the screen containing Storage Unit details such as weight SSCC number. If SU is, a child box of another SU in the master SU Field will be placed a number of Master One.
 
 ![Storage Unit Details](./media/SUDetails5.png)
-

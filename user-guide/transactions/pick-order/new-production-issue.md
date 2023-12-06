@@ -64,7 +64,7 @@ The order and availability of some of the forms during a document's creation may
 
 4. Choosing a Storage Unit or a Batch in the FIFO method is possible. You can skip this step by clicking the right arrow icon.
 
-  You can hide this form by using the related Custom Configuration [ADD LINK] option option.
+  You can hide this form by using [the related Custom Configuration ](./../../../administror-guide/custom-configuration/custom-configuration.md) option.
 
   ![FIFO](./media/FIFO2.png)
 
@@ -110,7 +110,7 @@ The order and availability of some of the forms during a document's creation may
 
 11. A message about a document creation will be displayed.
 
-  Click 'Ok' to finish the creation of a document.
+  Click 'OK' to finish the creation of a document.
 
   ![Created](./media/Created2.png)
 

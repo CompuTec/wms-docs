@@ -12,6 +12,6 @@ You can check Windows Event Viewer logs if you cannot find adequate files in the
 
 ![Event Viewer](./media/event-viewer.png)
 
-If there is an error connecting to CompuTec application, click its row and copy data from the main window and paste it into the support issue.
+If there is an error connecting to the CompuTec application, click its row, copy data from the main window and paste it into the support issue.
 
 ![Event Viewer](./media/event-viewer-computec.png)

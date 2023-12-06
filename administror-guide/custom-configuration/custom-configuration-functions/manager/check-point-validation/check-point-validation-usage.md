@@ -52,5 +52,3 @@ select case when @Quantity > 10 then 'Quantity is too high!' when @Quantity < 2 
  ![Result](./media/d6.png)
 
  ![Result](./media/d7.png)
-
- 

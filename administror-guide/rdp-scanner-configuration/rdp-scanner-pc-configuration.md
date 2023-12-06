@@ -22,7 +22,7 @@ Press Win + R, type cmd, and click Enter:
 
 ![Command](./media/cmd.PNG)
 
-Type ipconfig and click Enter:
+Type 'ipconfig' and click Enter:
 
 ![IP Config](./media/ipconfig.PNG)
 

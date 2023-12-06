@@ -6,13 +6,13 @@ New Stock Counting transactions have been available since the WMS 2.10.15_R1 ver
 
 ### CompuTec WMS database objects installation
 
-Click (ADD LINK) here to find out more.
+Click [here](./../../../administror-guide/installation/wms-server/wms-server.md/#wms-server) to find out more.
 
 ### AppEngine plugin installation (http://localhost:54000/webcontent/uaa/webapp/Index.html)
 
 Click (ADD LINK) here to download the installation file.
 
-Click (ADD LINK) here to find out more about the installation.
+Click [here](./plugin-installation.md) to find out more about the installation.
 
 ### Stock Counting Document
 
@@ -28,7 +28,7 @@ You can choose to use either the new or the old Stock Counting. To use the old o
 
 After enabling the old Stock Counting, you can use all of the checkboxes from this view (both for the old and new option versions):
 
-After saving, auto return to: – choose where to return after saving Item Details on a document; you can select main menu for this operation or the Item list
+After saving, auto return to: – choose where to return after saving Item Details on a document; you can select the main menu for this operation or the Item list
 
 Display message after adding batches – configure a message displayed on adding a Batch. The message can be based on an SQL query
 
@@ -150,7 +150,7 @@ Type in the Batch name and click the save icon:
 
 ![Document Details](./media/stock-counting-quantity-line.png)
 
-You can edit the Batch quantity by entering its line (you cannot change the Batch name now, but it is possible to delete it along with counted quantity by clicking the icon next to the save icon).
+You can edit the Batch quantity by entering its line (you cannot change the Batch name now, but it is possible to delete it along with the counted quantity by clicking the icon next to the save icon).
 
 ![Batches](./media/stock-counting-batch.png)
 
@@ -188,7 +188,7 @@ It is not possible to change the Serial Number name. You can only remove it by c
 
 ![Serial](./media/stock-counting-delete-serial2.png)
 
-You can add another Serial Numbers by clicking the plus icon:
+You can add another Serial Number by clicking the plus icon:
 
 ![Serials](./media/stock-counting-plus.png)
 
@@ -230,7 +230,7 @@ In the following form, you can see already added SUs, and you can add a new one 
 
 ![Add SU](./media/stock-counting-adding-sus2.png)
 
-If you will not put anything in the SU Code or SSCC field and click the right arrow, a new SU will be created. Then choose a Warehouse and a Bin location (if required).
+If you do not put anything in the SU Code or SSCC field and click the right arrow, a new SU will be created. Then choose a Warehouse and a Bin location (if required).
 
 Choose the newly created SU in the List of SUs:
 
@@ -280,7 +280,7 @@ The way of adding an Item is the same as in the case of adding Items that are no
 
 ![SU Document Details](./media/stock-counting-su-document-details.png)
 
-You can change a location of an SU (with its content) by clicking the following icon and choosing another Warehouse (this applies only to the highest-level SUs):
+You can change the location of an SU (with its content) by clicking the following icon and choosing another Warehouse (this applies only to the highest-level SUs):
 
 ![SU Document Details](./media/stock-counting-su-document-details-warehouse.png)
 
@@ -318,13 +318,9 @@ Prefix 00 for an SSCC, e.g. (00)0000000000000154
 
 Upon scanning a code, you will get information (not present in the system or already added in this or another document), or the system will move to a related Warehouse.
 
-Wybranie palety już dodanej na oknie List of SUs
-
 Choosing an already added SU in the List of SUs form:
 
 ![List of SUs](./media/stock-counting-scan-list-of-sus.png)
-
-Dodawanie indeksów poprzez skanowanie
 
 Adding Items by scanning:
 
@@ -336,7 +332,7 @@ In the Document details form:
 
 Scan a Warehouse code, an Item code and a quantity code.
 
-You can add a Warehouse along with Bin location in the code.
+You can add a Warehouse along with the Bin location in the code.
 
 ![Quantity](./media/stock-counting-scan-adding-items-warehouse-bin.png)
 
@@ -393,4 +389,3 @@ Only Serial Number in the Serial Numbers form and when adding a new one:
 ![Serials](./media/stock-counting-scan-serial.png)
 
 ![Serials](./media/stock-counting-scan-serial2.png)
-

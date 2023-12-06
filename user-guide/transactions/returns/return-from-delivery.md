@@ -100,7 +100,7 @@ Click the + icon to add new Items to the document (you can also abort the docume
 
 After choosing **Active-Item-01** – a Batch-managed Item (manually or by scanning), the Storage info form appears. In this screen, the user can add Batches using the 'plus' button:
 
-![Stoage Info](./media/StorageInfo_AcIt.png)
+![Storage Info](./media/StorageInfo_AcIt.png)
 
 The next step is the Bin Location selection (if the Warehouse has Bin Locations). The Bin Location screen can be skipped if the option "Returning Always to default bin" is enabled.
 

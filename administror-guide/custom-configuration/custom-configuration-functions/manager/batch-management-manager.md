@@ -72,7 +72,7 @@ Copy all Warehouse and Bin Locations – check this checkbox to assign default s
 
 ### Additional information
 
-- It is not required to restart the WMS Server after changes were made in Batch Management Manager
+- It is not required to restart the WMS Server after changes were made in the Batch Management Manager
 
 - Double click left mouse button on a column name to check all the checkboxes in the column
 
@@ -81,5 +81,3 @@ Copy all Warehouse and Bin Locations – check this checkbox to assign default s
 - SU FIFO settings are now in the SU tab:
 
   ![SU FIFO](./media/SUFIFO.png)
-
-  

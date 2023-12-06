@@ -8,7 +8,7 @@ Dispatch Control is an option that allows verifying Items against the Business P
 
 ### Custom Configuration
 
-You can check the Custom Configuration options here.
+You can check the Custom Configuration options [here](./../../administror-guide/custom-configuration/custom-configuration-functions/6-dispatch-control.md).
 
 ### SAP Business One
 
@@ -20,7 +20,7 @@ Inventory → Item Management → Business Partner Catalog Numbers
 
 :::
 
-![Business Partner Catolog Numbers](./media/bp-catalog-numbers.png)
+![Business Partner Catalog Numbers](./media/bp-catalog-numbers.png)
 
 Assigning an Item to a specific Business Partner (BP tab) is possible. Choosing an Item and defining different Catalog numbers for each Business Partner is also possible.
 
@@ -30,7 +30,7 @@ Please check the related SAP Business One documentation entry to learn more abou
 
 Go to Custom Configuration and select the "Turn on Dispatch Control for all Business Partners" checkbox.
 
-![Custom Configuratio](./media/dispatch-control-cc.png)
+![Custom Configuration](./media/dispatch-control-cc.png)
 
 Click on the Dispatch Control button:
 

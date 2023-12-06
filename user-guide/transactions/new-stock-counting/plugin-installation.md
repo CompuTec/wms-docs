@@ -72,7 +72,7 @@ Each of them has to be activated to work correctly.
 
 This job sends information from the CompuTec client to SAP Business One (the Save icon in CompuTec WMS).
 
-![On Demand](./media/sync-sap-on-demand.png)
+![On-Demand](./media/sync-sap-on-demand.png)
 
 #### SyncStockCountingWithSAPRecurring
 
@@ -88,7 +88,7 @@ This job is responsible for creating Storage Units and their edition during Inve
 
 ### The result
 
-The AppEngine plugin is required to use the New Stock Counting either with just SAP Business One or ProcessForce.
+The AppEngine plugin is required to use the New Stock Counting either with SAP Business One or ProcessForce.
 
 If the plugin is unavailable, there will be information about it in CompuTec WMS.
 

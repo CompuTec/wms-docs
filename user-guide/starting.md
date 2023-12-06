@@ -2,7 +2,7 @@
 
 ## Starting CompuTec WMS Settings
 
-1. To run the desktop version of the CompuTec WMS Client, an installation and configuration of the CompuTec WMS Server is required. For further information, [ADD LINK] click here.
+1. To run the desktop version of the CompuTec WMS Client, an installation and configuration of the CompuTec WMS Server is required. For further information, click [here](./../administror-guide/installation/wms-server/wms-server.md).
 
 2. To start the CompuTec WMS Client desktop version, choose it from a program list or run the CompuTec.Client.Desktop.exe file in the CompuTec WMS Client installation folder.
 
@@ -60,7 +60,7 @@ Note that opening the Settings form and clicking Save (even without changing any
 
     ![Login](./media/wms-login.png)
 
-2. Type in a terminal username and password [ADD LINK] or login by scanning the Employee Badge.
+2. Type in a terminal username and password or log in by scanning the Employee Badge.
 
 3. Click here to find out how to create a terminal user. Click a green icon or press Enter. If a terminal user has a barcode assigned, scanning the code logs in the user.
 

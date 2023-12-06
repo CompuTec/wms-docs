@@ -24,8 +24,6 @@
 
   ![Batch](./media/BatchReceipted.png)
 
-7. Remarks window: you can add Remarks, change numbering Series, or put values to User Defined Fields.
+7. Remarks window: you can add Remarks, change numbering Series, or put values to User-Defined Fields.
 
   ![Remarks](./media/Remarks.png)
-
-  

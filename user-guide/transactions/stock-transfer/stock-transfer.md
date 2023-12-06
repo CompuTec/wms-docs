@@ -19,7 +19,7 @@ An Inventory Transfer document in WMS can be generated from manually picked Item
     Item Name
     Item Code
     Warehouse number
-    quantity without Storage Unit
+    quantity without a Storage Unit
     quantity contained in any Storage Unit
     already picked/target quantity (0/10 in this example)
     Unit of Measurement
@@ -74,7 +74,7 @@ An Inventory Transfer document in WMS can be generated from manually picked Item
 
     - quantity available in the chosen location
 
-    - quantity still needed to be picked to fulfill Inventory Transfer Request
+    - quantity still needed to be picked to fulfill the Inventory Transfer Request
 
     - quantity already picked.
 
@@ -146,5 +146,4 @@ Click a row to choose it. The Quantity window will appear (see no. 6 of this gui
 
   ![Remarks](./media/Saved.png)
 
-21. An Inventory Transfer is posted and is available in SAP Business One.
-
+22. An Inventory Transfer is posted and is available in SAP Business One.
