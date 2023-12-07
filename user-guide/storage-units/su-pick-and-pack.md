@@ -24,7 +24,7 @@ SU Pick and Pack from Sales Order
 
   2) add a new SU
 
-  3) assemble an SU from Items on the list.
+  3) assemble an SU from the Items on the list.
 
   or you can just enter each Item's line and choose the required Quantity, Batch / Serial Numbers. If you decide to do this, go to point no. 6 of this manual.
   Upon choosing the assemble option, the Items Document form is displayed:
@@ -40,7 +40,7 @@ SU Pick and Pack from Sales Order
   ![Batches](./media/Batches5.png)
 
 7. The Item row turns green After choosing a Batch and setting the whole quantity.
-If the whole quantity was set, the row stays grey, and on the upper right corner, there is an indication of picked/total quantity. Click the save button after selecting the whole quantity.
+If the whole quantity is set, the row stays grey, and in the upper right corner, there is an indication of the picked/total quantity. Click the save button after selecting the whole quantity.
 
 ![Storage Unit Details](./media/StorageUnitDetails_Selected5.png)
 
@@ -87,4 +87,3 @@ We can add:
  3) SU details.
 
 ![Document Details](./media/DotDet_Add5.png)
-

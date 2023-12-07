@@ -1,6 +1,8 @@
 # Project
 
-Here, you can obtain additional information regarding SAP Business One Projects on documents created using CompuTec WMS.
+Here you can obtain additional information regarding SAP Business One Projects on documents created using CompuTec WMS.
+
+---
 
 It is impossible to set Enable Dimensions SQL, Proper Line to Project. This setting has a priority over the default Project and a Project picked during a transaction.
 

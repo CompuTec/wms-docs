@@ -21,20 +21,21 @@ On SU Creation, the UDF button is visible from the SU Content window.
 Example:
 
 Goods Receipt PO
-  - Select Warehouse
 
-  - Select Supplier
+- Select Warehouse
 
-  - Add SU -> New SU
+- Select Supplier
 
-  - Add batch item Active-Item-01 with quantity 10, generate batch
+- Add SU -> New SU
 
-  - Enter SU Header
+- Add batch item Active-Item-01 with quantity 10, generate batch
 
-  - Press the UDF icon
+- Enter SU Header
 
-  - Fill in previously added UDF
+- Press the UDF icon
 
-  - Save SU to document
+- Fill in previously added UDF
 
-  - Press next and Save the transaction.
+- Save SU to document
+
+- Press next and Save the transaction.
