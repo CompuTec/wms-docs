@@ -348,8 +348,10 @@ Back – go back to the previous window.
 
                 3. For the SQL query, set:
 
-                ```sql 
+                ```sql
+
                 SELECT Right('@Year',2) || '@Month' || '@Day' as "ExpireDate" FROM DUMMY
+                
                 ```
 
     d. Save rules and decoder.
@@ -393,5 +395,3 @@ Back – go back to the previous window.
   e. Test.
 
   ![Barcode Definition](./media/wms-decoder-testing-3.png)
-
-  
