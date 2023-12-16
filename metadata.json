@@ -1,0 +1,6 @@
+{
+  "label": "WMS",
+  "pluginId": "wms",
+  "routeBasePath": "/wms",
+  "order": 3
+}
