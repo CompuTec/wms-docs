@@ -2,5 +2,6 @@
   "label": "WMS",
   "pluginId": "wms",
   "routeBasePath": "/wms",
-  "order": 3
+  "order": 3,
+  "currentVersion": "2.0"
 }
