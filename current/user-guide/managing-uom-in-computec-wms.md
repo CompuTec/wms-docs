@@ -14,55 +14,55 @@ This function allows the management of Units of Measurement (UoM) for the follow
 
 Check the highlighted checkbox in Custom Configuration (CC):
 
-![Delivery](./media/cc-delivery-uom.png)
+![Delivery](./media/cc-delivery-uom.webp)
 
 An Inventory Transfer document in SAP Business One:
 
-![In SAP B1](./media/document-in-sap.png)
+![In SAP B1](./media/document-in-sap.webp)
 
 A Pick List for this document:
 
-![Pick List in SAP](./media/pick-list-in-sap.png)
+![Pick List in SAP](./media/pick-list-in-sap.webp)
 
 Without the CC checkbox, the quantities are displayed by Warehouse quantities:
 
-![Document Details](./media/without-checkbox.png)
+![Document Details](./media/without-checkbox.webp)
 
 When the CC checkbox is checked, the quantities are displayed by UoM:
 
-![Document Details](./media/with-checkbox.png)
+![Document Details](./media/with-checkbox.webp)
 
 ## From Transfer Request
 
 CompuTec WMS takes the UoM from a base SAP Business One document:
 
-![Document Details](./media/from-transfer-request-uom.png)
+![Document Details](./media/from-transfer-request-uom.webp)
 
 ## Stock Transfer / Transfer Request
 
 a. CompuTec WMS takes UoM from the Inventory Data tab.
 
-![SAP B1](./media/uom-inventory.png)
+![SAP B1](./media/uom-inventory.webp)
 
 b. Check the highlighted checkbox:
 
-![Custom Configuration](./media/cc-stock-transfer-uom.png)
+![Custom Configuration](./media/cc-stock-transfer-uom.webp)
 
 Now CompuTec WMS takes UoM from the Sales Data tab:
 
-![Sales UoM](./media/sales-uom.png)
+![Sales UoM](./media/sales-uom.webp)
 
-![Document Details](./media/sales-uom-wms.png)
+![Document Details](./media/sales-uom-wms.webp)
 
 ## Custom queries
 
 Using a custom query, you can choose a line with any UoM. To do it, you have to add a column named UoM. If this column is present in a query, UoM will always be taken from here.
 
-![Custom Configuration](./media/cc-query-manager.png)
+![Custom Configuration](./media/cc-query-manager.webp)
 
-![Custom Configuration](./media/cc-query-manager-2.png)
+![Custom Configuration](./media/cc-query-manager-2.webp)
 
-![Custom Configuration](./media/cc-query-manager-3.png)
+![Custom Configuration](./media/cc-query-manager-3.webp)
 
 ### For MS SQL
 
@@ -183,9 +183,9 @@ ORDER BY T0."ItemCode", T0."UoM"
 
 CompuTec WMS will show a list of all UoM, and you can choose a required group.
 
-![New Item](./media/cc-query-manager-result.png)
+![New Item](./media/cc-query-manager-result.webp)
 
-![New Item](./media/cc-query-manager-result-2.png)
+![New Item](./media/cc-query-manager-result-2.webp)
 
 Adding a custom query to one transaction, e.g., Transfer Request, is possible.
 

@@ -1,6 +1,6 @@
 # Common
 
-![Common](./media/cc-common.png)
+![Common](./media/cc-common.webp)
 
 **CompuTec Weight Service web address** – checking the checkbox enables CompuTec Weight integration. After checking it, enter the CompuTec Weight Web address (available in General options in CompuTec Weight). You can test the connection to the address by using the Test button.
 

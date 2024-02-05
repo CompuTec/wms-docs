@@ -20,7 +20,7 @@ Inventory → Item Management → Business Partner Catalog Numbers
 
 :::
 
-![Business Partner Catalog Numbers](./media/bp-catalog-numbers.png)
+![Business Partner Catalog Numbers](./media/bp-catalog-numbers.webp)
 
 Assigning an Item to a specific Business Partner (BP tab) is possible. Choosing an Item and defining different Catalog numbers for each Business Partner is also possible.
 
@@ -30,30 +30,30 @@ Please check the related SAP Business One documentation entry to learn more abou
 
 Go to Custom Configuration and select the "Turn on Dispatch Control for all Business Partners" checkbox.
 
-![Custom Configuration](./media/dispatch-control-cc.png)
+![Custom Configuration](./media/dispatch-control-cc.webp)
 
 Click on the Dispatch Control button:
 
-![Main Menu](./media/wms-main-menu.png)
+![Main Menu](./media/wms-main-menu.webp)
 
 Select a row from the Delivery list:
 
-![Delivery Selection](./media/delivery-selection.png)
+![Delivery Selection](./media/delivery-selection.webp)
 
 After selecting the row, the Document Details screen appears. Select one of the Items:
 
-![Details](./media/details-grayed.png)
+![Details](./media/details-grayed.webp)
 
 If batches manage Items, you have to select Batch:
 
-![Batches](./media/delivery-batches-2.png)
+![Batches](./media/delivery-batches-2.webp)
 
 Now you have to enter the BP Part Number for this specific Item:
 
-![Enter Numbers](./media/delivery-enter-number.png)
+![Enter Numbers](./media/delivery-enter-number.webp)
 
 If you enter a wrong number, the error message appears:
 
     VDA Part number doesn't match the item
 
-![Wrong Numbers](./media/delivery-wrong-numbers.png)
+![Wrong Numbers](./media/delivery-wrong-numbers.webp)

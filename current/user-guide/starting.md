@@ -7,13 +7,13 @@
 2. To start the CompuTec WMS Client desktop version, choose it from a program list or run the CompuTec.Client.Desktop.exe file in the CompuTec WMS Client installation folder.
 
 3. CompuTec WMS splash screen overview
-    When running the application for the first time, select the Settings button to set up server addresses.
+   When running the application for the first time, select the Settings button to set up server addresses.
 
-    ![WMS Main Screen](./media/wms-main-screen.png)
+   ![WMS Main Screen](./media/wms-main-screen.webp)
 
 ## General Settings overview
 
-![General Settings](./media/application-settings-general.png)
+![General Settings](./media/application-settings-general.webp)
 
 ### Info icon
 
@@ -32,9 +32,9 @@ Check the Scale checkbox if CompuTec WMS is planned to be used with a scale. A n
 
 ### Other option
 
-Show buttons focus  – highligt the buttons focused on
+Show buttons focus – highligt the buttons focused on
 
-Use global settings  –
+Use global settings –
 
 Full screen – full-screen version of the main menu form
 
@@ -42,7 +42,7 @@ Full screen for login panel – full screen mode for the login panel (even if th
 
 ## Documents tab
 
-![Document Tab](./media/application-settings-document.png)
+![Document Tab](./media/application-settings-document.webp)
 
 Checking a specific checkbox displays the Warehouse Selection form of a particular transaction. If you want to use only one default warehouse, uncheck a checkbox for a required transaction and type in a required warehouse. Click here to find out more.
 
@@ -58,7 +58,7 @@ Note that opening the Settings form and clicking Save (even without changing any
 
 1. After saving, the log-in window appears.
 
-    ![Login](./media/wms-login.png)
+   ![Login](./media/wms-login.webp)
 
 2. Type in a terminal username and password or log in by scanning the Employee Badge.
 

@@ -18,10 +18,10 @@ Unzip the file and run it (it does not require installation).
 
 - You can scan an Item by its name or barcode.
 
-  ![Item Name](./media/item-name-scan.png)
+  ![Item Name](./media/item-name-scan.webp)
 
 - You can scan a single code or use a multi-part barcode by putting each code in a separate line:
 
-  ![Multiple Elements](./media/multi-part.jpg)
+  ![Multiple Elements](./media/multi-part.webp)
 
 VIDEO

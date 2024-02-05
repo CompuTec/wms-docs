@@ -14,19 +14,19 @@ Here, you can find instructions on configuring and using weight scales with Comp
 
 5. You can set your Barcode to your Weight Scale.
 
-  ![Weight](./media/weight.jpg)
+  ![Weight](./media/weight.webp)
 
 6. Open Custom Configuration, Common tab.
 
 7. Set your AppEngine address:
 
-  ![AppEnngine](./media/appengine-adres.jpg)
+  ![AppEnngine](./media/appengine-adres.webp)
 
 8. Check the CT Weight Service web address option.
 
 9. Test connection/OK.
 
-  ![Printer](./media/Printer.jpg)
+  ![Printer](./media/Printer.webp)
 
 10. Save Custom Configuration and Close.
 
@@ -34,17 +34,17 @@ Here, you can find instructions on configuring and using weight scales with Comp
 
 12. Select Options:
 
-  ![Options](./media/options.jpg)
+  ![Options](./media/options.webp)
 
 13. Check the Scale checkbox.
 
 14. Select your WMS Printer:
 
-  ![WMS Printer](./media/WMS-Printer.jpg)
+  ![WMS Printer](./media/WMS-Printer.webp)
 
 15. Or you can leave this option without choosing any weight scale if you want to use the Scan Barcode option of your weight scale.
 
-  ![Options](./media/options-scan.jpg)
+  ![Options](./media/options-scan.webp)
 
 16. Save configuration.
 
@@ -56,7 +56,7 @@ Here, you can find instructions on configuring and using weight scales with Comp
 
 20. If you want to sum/add another weight to the existing weight, please hold buttons (2) or (3) for 3 seconds.
 
-  ![WMS Weight](./media/wms-weight.jpg)
+  ![WMS Weight](./media/wms-weight.webp)
 
 21. You can choose your weight with a Barcode.
 
@@ -64,4 +64,4 @@ Here, you can find instructions on configuring and using weight scales with Comp
 
 23. Scan your Barcode(from WeightScanManager).
 
-  ![Barcode](./media/barcode.jpg)
+  ![Barcode](./media/barcode.webp)

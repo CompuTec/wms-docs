@@ -10,7 +10,7 @@ The option prevents the work of many people on one document and allows the contr
 
 To activate the option, check the Enable Semaphore checkbox in Custom Configuration, click Load, choose the required document types, and click Save:
 
-![Semaphore](./media/semaphore.png)
+![Semaphore](./media/semaphore.webp)
 
 **Document reservation time** – time in minutes when a document chosen from a document list stays active after the last action (any clicking, like selecting an Item or choosing an arrow back). If the document is inactive for the set time, it is again available from a document list. If this option is disabled, the document is active without time constraints (it is never dismissed to a document list).
 
@@ -22,6 +22,6 @@ Example document list:
 
 Main Menu → Stock Transfer → From Transfer Request:
 
-![Semaphore](./media/inventory-transfers-main-menu.png)
+![Semaphore](./media/inventory-transfers-main-menu.webp)
 
 The list does not change dynamically, which means that upon choosing a document, you can get a message about the document being reserved already. To avoid it, click the refresh button (lower-middle edge) before selecting a document.

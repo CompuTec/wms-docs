@@ -4,7 +4,7 @@
 
 **Known Limitation**
 
-Currently, there is no Storage Unit element in the SAP Business One after installing CompuTec WMS. For a workaround, click [here](./storage-unit-in-sap-business-one-menu-error.md). 
+Currently, there is no Storage Unit element in the SAP Business One after installing CompuTec WMS. For a workaround, click [here](./storage-unit-in-sap-business-one-menu-error.md).
 
 :::
 
@@ -26,4 +26,4 @@ Created SUs can be browsed in SAP Business One. Click here to find out more.
 
 Click the 'SU Operations' option in the main menu to go to related options:
 
-![SU](./media/SUOperations.png)
+![SU](./media/SUOperations.webp)

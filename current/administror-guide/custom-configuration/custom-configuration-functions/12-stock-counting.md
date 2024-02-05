@@ -1,6 +1,6 @@
 # Stock Counting
 
-![Stock Counting](./media/cc-stock-counting.png)
+![Stock Counting](./media/cc-stock-counting.webp)
 
 The new Stock Counting is created based on an empty document created in CompuTec WMS. Next, it is sent to SAP Business One. In the old Stock Counting, an SAP Business One user created a document based on which a list was displayed in CompuTec WMS. After enabling the old Stock Counting, you can use all of the checkboxes from this view (both for the old and new option versions).
 
@@ -16,7 +16,7 @@ The new Stock Counting is created based on an empty document created in CompuTec
 
 **Auto add SU content** – checking this checkbox allows you to add a whole Storage Unit (with its content).
 
-  **Fill SU content during Saving to SAP** – checking this option, all the Items in the SU are saved only after clicking the Save to SAP button (not during specific lines).
+**Fill SU content during Saving to SAP** – checking this option, all the Items in the SU are saved only after clicking the Save to SAP button (not during specific lines).
 
 ## Old Stock Counting
 

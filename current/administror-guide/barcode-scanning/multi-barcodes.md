@@ -30,7 +30,7 @@ Example
 
 (10)2020-01-01-001
 
-![Barcode](./media/barcode-01.png)
+![Barcode](./media/barcode-01.webp)
 
 A barcode can contain additional information from User-Defined Fields, e.g. Expiry Date:
 
@@ -45,7 +45,7 @@ Item, quantity, Batch, Expiry Date:
 
 (17)200501
 
-![Barcode](./media/barcode-02.png)
+![Barcode](./media/barcode-02.webp)
 
 ### Finding an Item
 
@@ -55,25 +55,25 @@ To correctly identify an Item and its localization, a related barcode has to con
 
 - Item, quantity, Batch – this allows adding an Item to the list with one scanning without additional opening its row and updating information
 
-    Example
+  Example
 
-    (91)Product-A
+  (91)Product-A
 
-    (37)20
+  (37)20
 
-    (10)2020-01-01-001
+  (10)2020-01-01-001
 
-    ![Barcode](./media/barcode-02.png)
+  ![Barcode](./media/barcode-02.webp)
 
 - Batch and quantity (it is also possible to scan it on the Warehouse selection form if a unique Batch is present only in one localization and this option is enabled: Custom Configuration -> Scanning: general -> Identify/open items by batch/serial scanning)
 
-    Example
+  Example
 
-    (10)2019-12-02-002
+  (10)2019-12-02-002
 
-    (37)10
+  (37)10
 
-    ![Barcode](./media/barcode-04.png)
+  ![Barcode](./media/barcode-04.webp)
 
 ### Item issue
 
@@ -81,22 +81,22 @@ To correctly identify an Item and its localization, a related barcode has to con
 
 - Item, quantity, Batch
 
-    Example
+  Example
 
-    (91)Active-Item-01
+  (91)Active-Item-01
 
-    (10)2012-04-18-4
+  (10)2012-04-18-4
 
-    (95)5555600
+  (95)5555600
 
-    ![Barcode](./media/barcode-05.png)
+  ![Barcode](./media/barcode-05.webp)
 
 - Batch and quantity (it is also possible to scan it on the Warehouse selection form if a unique Batch is present only in one localization and this option is enabled: Custom Configuration -> Scanning: general -> Identify/open items by batch/serial scanning)
 
-    Example
+  Example
 
-    (10)2019-12-02-002
+  (10)2019-12-02-002
 
-    (37)10
+  (37)10
 
-    ![Barcode](./media/barcode-06.png)
+  ![Barcode](./media/barcode-06.webp)

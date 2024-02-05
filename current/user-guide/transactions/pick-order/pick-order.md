@@ -8,45 +8,45 @@ The Pick Order transaction allows generating a ProcessForce Production Issue.
 
 1. To create a Production Issue from a Pick Order, click Pick Order in the main menu.
 
-  ![Main Menu](./media/PickOrder.png)
+![Main Menu](./media/PickOrder.webp)
 
 2. You can select From Pick Order or New Production Issue.
 
-  ![Main Menu](./media/IssuesToProduction.png)
+![Main Menu](./media/IssuesToProduction.webp)
 
 3. Select from Pick Orders or Manufacturing Orders.
 
 You can use Filter to search for specific orders you want to issue to production.
 
-  ![Opened Pick Orders](./media/OpenedPickOrders.png)
+![Opened Pick Orders](./media/OpenedPickOrders.webp)
 
-  ![Manufacturing Orders](./media/ManufacturingOrder.png)
+![Manufacturing Orders](./media/ManufacturingOrder.webp)
 
 4. The list of Items for Pick Order is opened.
 
-  ![Items to pick order](./media/ItemsToPickOrder.png)
+![Items to pick order](./media/ItemsToPickOrder.webp)
 
 5. Add items from another Pick Order, Manufacturing Order, or Storage Unit.
 
-  ![Items to pick order](./media/ItemsToPickOrder_add.png)
+![Items to pick order](./media/ItemsToPickOrder_add.webp)
 
 6. After adding the required Items and their quantities, click the 'Right Arrow" icon to go to the Remarks form
 
-  ![Remarks](./media/Remarks.png)
+![Remarks](./media/Remarks.webp)
 
 7.  You can add some remarks, change the series, add UDFs, or just save and post the document.
 
-  ![Remarks](./media/ProductionIssue12.png)
+![Remarks](./media/ProductionIssue12.webp)
 
 8.  The Production Issue is posted in SAP Business One.
 
-  ![Remarks](./media/GoodsIssue.png)
+![Remarks](./media/GoodsIssue.webp)
 
 ## ProcessForce option for Auto Allocation Serial Numbers and Batches (with bin locations)
 
-Since ProcessForce PL11, users can choose how to *Auto Allocate Batches on the Pick Order* option: 
+Since ProcessForce PL11, users can choose how to _Auto Allocate Batches on the Pick Order_ option:
 
-![General Settings](./media/General%20Settings%20option.png)
+![General Settings](./media/General%20Settings%20option.webp)
 
 This setting is responsible for whether to display or not preselected on Pick Order, Batches/Serial Numbers (there is no unique option for Serial Numbers; the same setting affects both Serial Numbers and Batches).
 In WMS, Batches/Serial Numbers preallocated on other documents are always omitted; thus, the "On other documents" option will not affect WMS. Suppose a user wants to consider preselected Batches and Serial Numbers on every document in WMS. In that case, one must select either "Allocated" or "Both" to recalculate quantities properly.

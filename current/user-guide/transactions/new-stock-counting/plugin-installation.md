@@ -12,21 +12,21 @@ Please ensure the AppEngine server name address is set in the CompuTec WMS Serve
 
 Turn on AppEngine on a database with ProcessForce:
 
-![General Settings](./media/general-settings.png)
+![General Settings](./media/general-settings.webp)
 
 Type in the address and click Save:
 
-![AE](./media/general-settings-ae.png)
+![AE](./media/general-settings-ae.webp)
 
 Log in to the AppEngine Administration panel using the following address: http://localhost:54000/webcontent/uaa/webapp/Index.html.
 
-![AE](./media/app-engine-administration-panel.png)
+![AE](./media/app-engine-administration-panel.webp)
 
 ## Plugin installation
 
 Go to the Plugins tab and then click the Install Plugin button:
 
-![Plugin](./media/plugins-install.png)
+![Plugin](./media/plugins-install.webp)
 
 Choose the file:
 
@@ -36,33 +36,33 @@ You have to upgrade the plugin upon upgrading CompuTec WMS.
 
 :::
 
-![Package](./media/plugin-package.png)
+![Package](./media/plugin-package.webp)
 
 Go to the plugin after the installation:
 
-![WMS Plugin](./media/computec-wms-plugin.png)
+![WMS Plugin](./media/computec-wms-plugin.webp)
 
 Activate the plugin in the Companies section:
 
-![Plugin](./media/plugin-activation.png)
+![Plugin](./media/plugin-activation.webp)
 
 ## Background Processing
 
 Go to the Background Processing, the Configuration tab:
 
-![Background processing](./media/background-processing.png)
+![Background processing](./media/background-processing.webp)
 
 You can use the filter to find the required jobs:
 
-![Plugin filter](./media/plugin-filter.png)
+![Plugin filter](./media/plugin-filter.webp)
 
 Mark all three of them and click the highlighted icon:
 
-![Tasks](./media/tasks.png)
+![Tasks](./media/tasks.webp)
 
 Mark all three of them and click the highlighted icon:
 
-![Choose Jobs](./media/jobs-choosing.png)
+![Choose Jobs](./media/jobs-choosing.webp)
 
 ### Jobs available in the CompuTec WMS plugin in AppEngine
 
@@ -72,19 +72,19 @@ Each of them has to be activated to work correctly.
 
 This job sends information from the CompuTec client to SAP Business One (the Save icon in CompuTec WMS).
 
-![On-Demand](./media/sync-sap-on-demand.png)
+![On-Demand](./media/sync-sap-on-demand.webp)
 
 #### SyncStockCountingWithSAPRecurring
 
 This job automatically sends data from CompuTec WMS to SAP Business One after 30 minutes.
 
-![Recurring](./media/sync-sap-recurring.png)
+![Recurring](./media/sync-sap-recurring.webp)
 
 #### WMSUpdateSUAfterInventoryPosting
 
 This job is responsible for creating Storage Units and their edition during Inventory Posting.
 
-![WMS Update](./media/wms-update-su.png)
+![WMS Update](./media/wms-update-su.webp)
 
 ### The result
 
@@ -92,4 +92,4 @@ The AppEngine plugin is required to use the New Stock Counting either with SAP B
 
 If the plugin is unavailable, there will be information about it in CompuTec WMS.
 
-![Not Enabled](./media/plugin-not-enabled.png)
+![Not Enabled](./media/plugin-not-enabled.webp)

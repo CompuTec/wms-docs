@@ -2,13 +2,13 @@
 
 1. Download [the Bluestacks application](https://www.wikihow.com/Download-Application-from-Google-Play-to-PC)
 
-    ![Bluestacks](./media/bluestacks.png)
+   ![Bluestacks](./media/bluestacks.webp)
 
 2. Open [Google Play Store](https://play.google.com/store).
 
 3. Find [Microsoft Remote Desktop](https://play.google.com/store/apps/details?id=com.microsoft.rdc.android).
 
-    ![Microsoft](./media/play_microsft.png)
+   ![Microsoft](./media/play_microsft.webp)
 
 4. Open the link to download the APK file(Android Instalator Package) https://apps.evozi.com/apk-downloader/.
 
@@ -16,7 +16,7 @@
 
 6. Generate Download link and Download Microsoft Remote Desktop.
 
-    ![Package](./media/microsoft-package.png)
+   ![Package](./media/microsoft-package.webp)
 
 7. Copy downloaded APK File(Microsoft Remote Desktop) to your Device.
 
@@ -24,7 +24,7 @@
 
 9. Your device is available on your PC.
 
-    ![Download](./media/microsoft-download.png)
+   ![Download](./media/microsoft-download.webp)
 
 10. Copy the APK File to the folder Download.
 

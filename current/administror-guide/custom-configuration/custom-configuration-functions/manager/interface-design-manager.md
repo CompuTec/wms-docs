@@ -12,7 +12,7 @@ To create and assign templates, go to Custom Configuration, Manager tab, and che
 
 Clicking Load Designer leads to the Select Template form. Choose a template on the left side of the form and click Delete to delete it or Load to open it.
 
-![Load Design Manager](./media/load-design-manager.png)
+![Load Design Manager](./media/load-design-manager.webp)
 
 In the new window on the left, there are available Templates; on the right, actions we can take:
 
@@ -28,16 +28,15 @@ In the new window on the left, there are available Templates; on the right, acti
 
 Clicking Load leads to Workflow Designer Manager, where it is possible to create a main menu template:
 
-![Workflow Editing](./media/workflow-designer-manager-editing.png)
+![Workflow Editing](./media/workflow-designer-manager-editing.webp)
 
 The form is divided into three panels:
 
-  - The one on the left is a mock-up of the application's main menu. Use the right-click context menu to add rows and columns. Doing so creates grids.
+- The one on the left is a mock-up of the application's main menu. Use the right-click context menu to add rows and columns. Doing so creates grids.
 
-  - the center one lists all of the transactions available from the application's main menu. Drag and drop it to the mock-up to fill a specific grid. You can drag and drop it back to the center panel to use it in another place.
-    This panel also contains a Container element: it allows storing many transactions in one folder. Clicking a container on a main menu leads to another form with the container's content. It is possible to use container elements multiple times. It is also possible to create a multilevel menu using it. You can change a container's name using a context menu option.
-    
-  - the right one contains general options: saving or canceling changes and saving and quitting the manager.
+- the center one lists all of the transactions available from the application's main menu. Drag and drop it to the mock-up to fill a specific grid. You can drag and drop it back to the center panel to use it in another place.
+  This panel also contains a Container element: it allows storing many transactions in one folder. Clicking a container on a main menu leads to another form with the container's content. It is possible to use container elements multiple times. It is also possible to create a multilevel menu using it. You can change a container's name using a context menu option.
+- the right one contains general options: saving or canceling changes and saving and quitting the manager.
 
 After adding some transactions to grids, it is possible to merge rows or columns. You can reach the option from a right-click context menu.
 
@@ -45,7 +44,7 @@ After adding some transactions to grids, it is possible to merge rows or columns
 
 In the following example, we created a main menu template for users using Goods Issue and Stock Transfer transactions. We also use a container to group some of the informational options.
 
-![Example](./media/example.png)
+![Example](./media/example.webp)
 
 #### Default template
 
@@ -59,7 +58,7 @@ Click the drop-down list next to Enable Interface Design Manager to choose a use
 
 Click Set Template, choose a template assigned to a user, and click Save.
 
-![Assigning Template](./media/assigning-template.png)
+![Assigning Template](./media/assigning-template.webp)
 
 :::warning
 

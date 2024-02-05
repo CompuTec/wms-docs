@@ -33,22 +33,22 @@ Libraries for a specific brand of a device:
 
 DataWedge service has to be turned off on Motorola and Symbol devices for the application to work correctly.
 
-![DataWedge](./media/data-wedge.png)
+![DataWedge](./media/data-wedge.webp)
 
 ## Installation
 
 1. Download the CompuTec WMS Client Windows CE file from here and transfer it to the mobile device or download it directly (click here to learn more). Open the destination folder on the device and run the file.
 
-   ![Choose File](./media/choose-file.png)
+   ![Choose File](./media/choose-file.webp)
 
 2. Choose a desired installation folder and click OK.
 
-   ![Path](./media/path.png)
+   ![Path](./media/path.webp)
 
 3. The "Installing CompuTec WMS" form with a progress bar will be displayed.
 
-   ![Progress Bar](./media/progress-bar.png)
+   ![Progress Bar](./media/progress-bar.webp)
 
 4. The installation is complete when the installation form is gone. Go to the Programs menu and choose the CompuTec WMS icon to start the application.
 
-   ![Data Wedge](./media/data-wedge-wms.png)
+   ![Data Wedge](./media/data-wedge-wms.webp)

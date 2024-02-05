@@ -24,17 +24,17 @@ To correctly configure a weight scale, it is required to create a Template and a
 
   Line 6: SNo. Terminal.
 
-  ![Screenshot](./media/mettler-01.png)
+  ![Screenshot](./media/mettler-01.webp)
 
-  ![Screenshot](./media/mettler-02.png)
+  ![Screenshot](./media/mettler-02.webp)
 
-  ![Screenshot](./media/mettler-03.png)
+  ![Screenshot](./media/mettler-03.webp)
 
-  ![Screenshot](./media/mettler-04.png)
+  ![Screenshot](./media/mettler-04.webp)
 
-  ![Screenshot](./media/mettler-05.png)
+  ![Screenshot](./media/mettler-05.webp)
 
-  ![Screenshot](./media/mettler-06.png)
+  ![Screenshot](./media/mettler-06.webp)
 
 ## Choosing a Mode for Weight Scales
 
@@ -42,11 +42,11 @@ To correctly configure a weight scale, it is required to create a Template and a
 
 - choose 'COM2'
 
-- choose  'Mode'
+- choose 'Mode'
 
 - choose 'Continuous print.'
 
-![Screenshot](./media/mettler-07.png)
+![Screenshot](./media/mettler-07.webp)
 
 ## Assigning the defined Template to the weight scales
 
@@ -64,15 +64,14 @@ To correctly configure a weight scale, it is required to create a Template and a
 
 - click OK to save the changes.
 
-![Screenshot](./media/mettler-08.png)
+![Screenshot](./media/mettler-08.webp)
 
-![Screenshot](./media/mettler-09.png)
+![Screenshot](./media/mettler-09.webp)
 
-![Screenshot](./media/mettler-10.png)
+![Screenshot](./media/mettler-10.webp)
 
-![Screenshot](./media/mettler-11.png)
+![Screenshot](./media/mettler-11.webp)
 
-![Screenshot](./media/mettler-12.png)
+![Screenshot](./media/mettler-12.webp)
 
 The weight scales are correctly configured and ready to work with CompuTec Gateway and CompuTec WMS 2.0.
-

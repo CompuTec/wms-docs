@@ -12,7 +12,7 @@ It is required to set the Pictures and Attachments path different than the defau
 
 You can do it in SAP Business One Main Menu → Administration → System Initialization → General Settings → Path tab:
 
-![Path](./media/signature-path.png)
+![Path](./media/signature-path.webp)
 
 ### Install the CompuTec WMS objects
 
@@ -26,17 +26,17 @@ If you are using a custom menu view in Interface Design Manager, please uncheck 
 
 Open Custom Configuration, go to Manager tab and check the Enable Signing Document check box. Then click the Load button next to it to choose the required documents.
 
-![Enable signing document option](./media/enable-signing-document-option.png)
+![Enable signing document option](./media/enable-signing-document-option.webp)
 
 Checking the Display checkbox activates the option (it is then available in the Remarks form of the specific document):
 
-![Remarks](./media/remarks-signature.png)
+![Remarks](./media/remarks-signature.webp)
 
 Checking the Required checkbox blocks saving of a document without a signature.
 
 Clicking the highlighted icon leads to the Document Signature form:
 
-![Document Signature Form](./media/document-signature-form.png)
+![Document Signature Form](./media/document-signature-form.webp)
 
 Use the three icons (from left) to:
 

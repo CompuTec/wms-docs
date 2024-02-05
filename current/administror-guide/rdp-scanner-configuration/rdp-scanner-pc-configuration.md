@@ -20,15 +20,15 @@ In this manual, the following environment is used:
 
 Press Win + R, type cmd, and click Enter:
 
-![Command](./media/cmd.PNG)
+![Command](./media/cmd.webp)
 
 Type 'ipconfig' and click Enter:
 
-![IP Config](./media/ipconfig.PNG)
+![IP Config](./media/ipconfig.webp)
 
 Write down your IPv4 Address in the format presented on the screenshot, e.g., 192.168.0.143:
 
-![IP Address](./media/ipconfigadres.png)
+![IP Address](./media/ipconfigadres.webp)
 
 ### Add WMS Client to Startup
 
@@ -50,7 +50,7 @@ Press Win+R
 
 - WMS Client will start automatically with Windows.
 
-![RDP](./media/RDP_png.png)
+![RDP](./media/RDP.webp)
 
 ## DataWedge Setup on Scanner
 
@@ -60,13 +60,13 @@ Take your SYMBOL Scanner and click START → Settings → Control Panel → Data
 
 Click the Running Button on YES → STATUS: Ready.
 
-![Status](./media/status.png)
+![Status](./media/status.webp)
 
 Click Basic Configuration, then Basic Format:
 
 Prefix to data → Set \u0002 → Save
 
-Suffix to data → Set \u0003  → Save
+Suffix to data → Set \u0003 → Save
 
 Save and Close.
 
@@ -78,7 +78,7 @@ Open RDP on Scanner, then go to Configuration, General tab, and type in your IPv
 
 Now go to the Display tab, Display Configuration → Set Small.
 
-![Small](./media/small.png)
+![Small](./media/small.webp)
 
 Save and Close.
 
@@ -88,15 +88,15 @@ Next, go to the Local Resources tab, Local Resources - Keyboard - Apply Windows 
 
 Set IPv4 Address (it should be filled in automatically).
 
-![IP](./media/c.png)
+![IP](./media/c.webp)
 
 Set the User and Password of the PC.
 
-![IP](./media/ce.png)
+![IP](./media/ce.webp)
 
 ## DataWedge Scanning configuration(PickList Mode)
 
-https://supportcommunity.zebra.com/s/article/Enable-Picklist-mode?language=en_US 
+https://supportcommunity.zebra.com/s/article/Enable-Picklist-mode?language=en_US
 
 DataWedge for Windows:
 

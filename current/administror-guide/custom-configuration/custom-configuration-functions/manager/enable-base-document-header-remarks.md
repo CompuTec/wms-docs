@@ -2,40 +2,40 @@
 
 This option allows to set additional fields for a header.
 
-![Enable](./media/enable.png)
+![Enable](./media/enable.webp)
 
 1. Check the checkbox, choose a transaction from the drop-down list and click Load:
 
-  ![Transaction List](./media/transactions-list.png)
+![Transaction List](./media/transactions-list.webp)
 
-  The option is available for the following transactions:
+The option is available for the following transactions:
 
-  Goods Receipt PO
+Goods Receipt PO
 
-  Inventory Transfer
+Inventory Transfer
 
-  Delivery
+Delivery
 
-  ProcessForce Pick Order
+ProcessForce Pick Order
 
-  ProcessForce Pick Receipt
+ProcessForce Pick Receipt
 
-  Goods Receipt
+Goods Receipt
 
-  Stock Counting
+Stock Counting
 
-  Dispatch Control
+Dispatch Control
 
-  Inventory Transfer Request from Manufacturing Order
+Inventory Transfer Request from Manufacturing Order
 
-  Return
+Return
 
-  Return PO
+Return PO
 
 2. Here you can put an SQL query, the result of which will be displayed in the header.
 
-  ![SQL Query](./media/sql-query.png)
+![SQL Query](./media/sql-query.webp)
 
 3. Upon opening the related document (Inventory Transfer from Transfer Request in this case), there is an additional button in the Document details window:
 
-  ![Document Details](./media/heade-remarks.png)
+![Document Details](./media/heade-remarks.webp)

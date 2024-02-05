@@ -6,7 +6,7 @@ Here, you can find a description of managing Empty Serial Numbers Items through 
 
 ## Item Master Data Configuration
 
-![Item Master Data](./media/item-master-data.png)
+![Item Master Data](./media/item-master-data.webp)
 
 ## Transactions supported in CompuTec WMS
 
@@ -18,111 +18,111 @@ Here, you can find a description of managing Empty Serial Numbers Items through 
 
 ### GRPO from Purchase Order
 
-![Order Selection](./media/GRPO-1.png)
+![Order Selection](./media/GRPO-1.webp)
 
-![Document Details](./media/GRPO-2.png)
+![Document Details](./media/GRPO-2.webp)
 
-![Storage Info](./media/GRPO-3.png)
+![Storage Info](./media/GRPO-3.webp)
 
-![Automatic Creation](./media/GRPO-4.png)
+![Automatic Creation](./media/GRPO-4.webp)
 
-![Storage Info](./media/GRPO-5.png)
+![Storage Info](./media/GRPO-5.webp)
 
-![Document Details](./media/GRPO-6.png)
+![Document Details](./media/GRPO-6.webp)
 
-![Remarks](./media/GRPO-7.png)
+![Remarks](./media/GRPO-7.webp)
 
 #### Result in SAP Business One
 
-![Goods Receipt PO](./media/GRPO-SAP.png)
+![Goods Receipt PO](./media/GRPO-SAP.webp)
 
-![Serial Number](./media/GRPO-SAP-2.png)
+![Serial Number](./media/GRPO-SAP-2.webp)
 
 ### Stock Transfer / From Transfer Request
 
-![Source Warehouse](./media/stock-transfer-1.png)
+![Source Warehouse](./media/stock-transfer-1.webp)
 
-![From Bin](./media/stock-transfer-2.png)
+![From Bin](./media/stock-transfer-2.webp)
 
-![Serials](./media/stock-transfer-3.png)
+![Serials](./media/stock-transfer-3.webp)
 
-![Serials](./media/stock-transfer-4.png)
+![Serials](./media/stock-transfer-4.webp)
 
-![Empty Serials Wizard](./media/stock-transfer-5.png)
+![Empty Serials Wizard](./media/stock-transfer-5.webp)
 
-![Serials](./media/stock-transfer-6.png)
+![Serials](./media/stock-transfer-6.webp)
 
-![Document Details](./media/stock-transfer-7.png)
+![Document Details](./media/stock-transfer-7.webp)
 
-![Destination Warehouse](./media/stock-transfer-8.png)
+![Destination Warehouse](./media/stock-transfer-8.webp)
 
 #### All to one Bin Location
 
-![To Bin](./media/stock-transfer-to-one-bin-1.png)
+![To Bin](./media/stock-transfer-to-one-bin-1.webp)
 
-![Put Away Items](./media/stock-transfer-to-one-bin-2.png)
+![Put Away Items](./media/stock-transfer-to-one-bin-2.webp)
 
 #### To different Bin Locations
 
-![Destination Warehouse](./media/stock-transfer-to-different-bins-1.png)
+![Destination Warehouse](./media/stock-transfer-to-different-bins-1.webp)
 
-![To Bin](./media/stock-transfer-to-different-bins-2.png)
+![To Bin](./media/stock-transfer-to-different-bins-2.webp)
 
-![Put Away Items](./media/stock-transfer-to-different-bins-3.png)
+![Put Away Items](./media/stock-transfer-to-different-bins-3.webp)
 
-![Serials](./media/stock-transfer-to-different-bins-4.png)
+![Serials](./media/stock-transfer-to-different-bins-4.webp)
 
-![To Bin](./media/stock-transfer-to-different-bins-5.png)
+![To Bin](./media/stock-transfer-to-different-bins-5.webp)
 
-![Put Away Items](./media/stock-transfer-to-different-bins-6.png)
+![Put Away Items](./media/stock-transfer-to-different-bins-6.webp)
 
-![Serials](./media/stock-transfer-to-different-bins-7.png)
+![Serials](./media/stock-transfer-to-different-bins-7.webp)
 
-![To Bin](./media/stock-transfer-to-different-bins-8.png)
+![To Bin](./media/stock-transfer-to-different-bins-8.webp)
 
-![Put Away Items](./media/stock-transfer-to-different-bins-9.png)
+![Put Away Items](./media/stock-transfer-to-different-bins-9.webp)
 
-![Remarks](./media/stock-transfer-to-different-bins-10.png)
+![Remarks](./media/stock-transfer-to-different-bins-10.webp)
 
 ### Delivery from Sales Order
 
-![Order Selection](./media/delivery-from-sales-order-1.png)
+![Order Selection](./media/delivery-from-sales-order-1.webp)
 
-![Order Selection](./media/delivery-from-sales-order-2.png)
+![Order Selection](./media/delivery-from-sales-order-2.webp)
 
-![Storage Info](./media/delivery-from-sales-order-3.png)
+![Storage Info](./media/delivery-from-sales-order-3.webp)
 
-![From Bin](./media/delivery-from-sales-order-4.png)
+![From Bin](./media/delivery-from-sales-order-4.webp)
 
-![Serials](./media/delivery-from-sales-order-5.png)
+![Serials](./media/delivery-from-sales-order-5.webp)
 
-<!-- ![Empty Serials Wizard](./media/delivery-from-sales-order-6.png) -->
+<!-- ![Empty Serials Wizard](./media/delivery-from-sales-order-6.webp) -->
 
 #### Empty
 
-<!-- ![Storage Info](./media/delivery-from-sales-order-empty.png) -->
+<!-- ![Storage Info](./media/delivery-from-sales-order-empty.webp) -->
 
 #### Named
 
-<!-- ![Empty Serials Wizard](./media/delivery-from-sales-order-named-1.png) -->
+<!-- ![Empty Serials Wizard](./media/delivery-from-sales-order-named-1.webp) -->
 
-<!-- ![Serials](./media/delivery-from-sales-order-named-2.png) -->
+<!-- ![Serials](./media/delivery-from-sales-order-named-2.webp) -->
 
-<!-- ![Serials](./media/delivery-from-sales-order-named-3.png) -->
+<!-- ![Serials](./media/delivery-from-sales-order-named-3.webp) -->
 
-<!-- ![Empty Serials Wizard](./media.delivery-from-sales-order-named-4.png) -->
+<!-- ![Empty Serials Wizard](./media.delivery-from-sales-order-named-4.webp) -->
 
-<!-- ![Serials](./media/delivery-from-sales-order-named-5.png) -->
+<!-- ![Serials](./media/delivery-from-sales-order-named-5.webp) -->
 
-![Storage Info](./media/delivery-from-sales-order-named-6.png)
+![Storage Info](./media/delivery-from-sales-order-named-6.webp)
 
-![Document details](./media/delivery-from-sales-order-named-7.png)
+![Document details](./media/delivery-from-sales-order-named-7.webp)
 
-![Remarks](./media/delivery-from-sales-order-named-8.png)
+![Remarks](./media/delivery-from-sales-order-named-8.webp)
 
 #### In SAP Business One
 
-![Serial Number](./media/delivery-from-sales-order-named-9.png)
+![Serial Number](./media/delivery-from-sales-order-named-9.webp)
 
 ## Pick and Pack
 
@@ -132,80 +132,80 @@ Warehouses without Bin Locations are supported.
 
 Preallocation when choosing the following option:
 
-![Option](./media/option.png)
+![Option](./media/option.webp)
 
 Or Bin Locations when this option is turned on:
 
-![Bin Location](./media/bin-location-1.png)
+![Bin Location](./media/bin-location-1.webp)
 
-![Bin Location](./media/bin-location-2.png)
+![Bin Location](./media/bin-location-2.webp)
 
-![Pick Lists](./media/bin-location-3.png)
+![Pick Lists](./media/bin-location-3.webp)
 
 - With preallocation:
 
-  ![Storage Info](./media/with-preallocation-1.png)
+  ![Storage Info](./media/with-preallocation-1.webp)
 
-  ![Quantity](./media/with-preallocation-2.png)
+  ![Quantity](./media/with-preallocation-2.webp)
 
-  ![Document Details](./media/with-preallocation-3.png)
+  ![Document Details](./media/with-preallocation-3.webp)
 
 - Without preallocation
 
-  ![Storage Info](./media/without-preallocation-1.png)
+  ![Storage Info](./media/without-preallocation-1.webp)
 
-  ![From Bin](./media/without-preallocation-2.png)
+  ![From Bin](./media/without-preallocation-2.webp)
 
 Let's choose, e.g., one named (empty Serial Numbers, and the one on the list must always be chosen separately, meaning you cannot pick one already called and one empty and proceed).
 
-![Serials](./media/without-preallocation-3.png)
+![Serials](./media/without-preallocation-3.webp)
 
 Let's choose the next three from the same location (different Bins):
 
-![Storage Info](./media/without-preallocation-4.png)
+![Storage Info](./media/without-preallocation-4.webp)
 
-![Serials](./media/without-preallocation-5.png)
+![Serials](./media/without-preallocation-5.webp)
 
-![Empty Serials Wizard](./media/without-preallocation-6.png)
+![Empty Serials Wizard](./media/without-preallocation-6.webp)
 
-![Serials](./media/without-preallocation-7.png)
+![Serials](./media/without-preallocation-7.webp)
 
-![Storage Info](./media/without-preallocation-8.png)
+![Storage Info](./media/without-preallocation-8.webp)
 
-![Empty Serials Wizard](./media/without-preallocation-9.png)
+![Empty Serials Wizard](./media/without-preallocation-9.webp)
 
-![Storage Info](./media/without-preallocation-10.png)
+![Storage Info](./media/without-preallocation-10.webp)
 
-![Document Details](./media/without-preallocation-11.png)
+![Document Details](./media/without-preallocation-11.webp)
 
 In the next step, it is possible to go to Delivery from the Pick List and create a Delivery document:
 
-![Document](./media/delivery-from-pick-list-1.png)
+![Document](./media/delivery-from-pick-list-1.webp)
 
-![Document Details](./media/delivery-from-pick-list-2.png)
+![Document Details](./media/delivery-from-pick-list-2.webp)
 
-![Storage Info](./media/delivery-from-pick-list-3.png)
+![Storage Info](./media/delivery-from-pick-list-3.webp)
 
-![Empty Serials Wizard](./media/delivery-from-pick-list-4.png)
+![Empty Serials Wizard](./media/delivery-from-pick-list-4.webp)
 
-![Storage Info](./media/delivery-from-pick-list-5.png)
+![Storage Info](./media/delivery-from-pick-list-5.webp)
 
-![Serials](./media/delivery-from-pick-list-6.png)
+![Serials](./media/delivery-from-pick-list-6.webp)
 
-![Storage Info](./media/delivery-from-pick-list-7.png)
+![Storage Info](./media/delivery-from-pick-list-7.webp)
 
-![Serials](./media/delivery-from-pick-list-8.png)
+![Serials](./media/delivery-from-pick-list-8.webp)
 
-![Empty Serials Wizard](./media/delivery-from-pick-list-9.png)
+![Empty Serials Wizard](./media/delivery-from-pick-list-9.webp)
 
-![Serials](./media/delivery-from-pick-list-10.png)
+![Serials](./media/delivery-from-pick-list-10.webp)
 
-![Storage Info](./media/delivery-from-pick-list-11.png)
+![Storage Info](./media/delivery-from-pick-list-11.webp)
 
-![Document Details](./media/delivery-from-pick-list-12.png)
+![Document Details](./media/delivery-from-pick-list-12.webp)
 
-![Remarks](./media/delivery-from-pick-list-13.png)
+![Remarks](./media/delivery-from-pick-list-13.webp)
 
 The result Delivery in SAP Business One:
 
-![Serial Number Transaction Report](./media/result-delivery-in-sapb1.png)
+![Serial Number Transaction Report](./media/result-delivery-in-sapb1.webp)

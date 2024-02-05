@@ -20,11 +20,11 @@ Net Framework 4.7 is required.
 
 3. In the window that will appear, click the "Install" button:
 
-![Installation](./media/installation.png)
+![Installation](./media/installation.webp)
 
 4. A window with an installation progress will be displayed. Click the "Close" button after a communication about a successful setup:
 
-![installation](./media/installation-2.png)
+![installation](./media/installation-2.webp)
 
 5. Now, you must run the Custom Configuration tool. The application is installed automatically during CompuTec WMS Server installation.
 
@@ -44,14 +44,14 @@ Local Disk (C:)\Program Files\CompuTec\CompuTec WMS Server\CustomConfiguration\
 
 7. In the web address field type http://localhost:8080 or http://Your IP address:8080 and then click the Save button.
 
-![Custom Configuration](./media/cc-common-integration.png)
+![Custom Configuration](./media/cc-common-integration.webp)
 
 8. Uninstall the old WMS client and install a new one, then enable the WMS client and go to Settings. You can download it here.
 
-![Settings](./media/settings-1.png)
+![Settings](./media/settings-1.webp)
 
 9. Click the " Scale " checkbox, choose your scale, then click the save button.
 
-![Settings](./media/settings-22.png)
+![Settings](./media/settings-22.webp)
 
 10. Your WMS is ready to proceed with the weight scale.

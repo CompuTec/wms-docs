@@ -16,13 +16,13 @@ It would be best to first define UDFs in a database to use during CompuTec WMS t
 
 Go to Custom Configuration options > Manager tab, check the Enable UDF Manager check box, and choose a document type from the drop-down list for which UDFs will be added:
 
-![Custom Configuration](./media/custom-config-option.png)
+![Custom Configuration](./media/custom-config-option.webp)
 
 You can set up values for a header (e.g., Goods Receipt PO Document option) or a document line (e.g., Goods Receipt PO Line).
 
 After choosing a required document type, click load (doing this requires putting in SAP Business One database credentials). Now, a list of UDFs defined for the chosen kind of document is displayed:
 
-![UDF Manager Options](./media/udf-manager-options.png)
+![UDF Manager Options](./media/udf-manager-options.webp)
 
 There are Name and Description fields along with three check boxes; when checked:
 
@@ -32,7 +32,7 @@ There are Name and Description fields along with three check boxes; when checked
 
 - Automatic: a UDF automatically fills the application with a query result. Click Load next to a specific line to go to the query form:
 
-![Query](./media/query.png)
+![Query](./media/query.webp)
 
 Now, the chosen UDFs will be displayed on lists during transactions.
 
@@ -46,7 +46,7 @@ For these UDFs, it is required to load an SQL query in Custom Configuration UDF 
 
 For these UDFs, it is required to load an SQL query in Custom Configuration UDF Manager to get the UDFs displayed in CompuTec WMS:
 
-![Revision Field](./media/revision-field.png)
+![Revision Field](./media/revision-field.webp)
 
 ```sql
 
@@ -70,7 +70,7 @@ With this setup, the user can choose Revision and its description that matches t
 
 Document UDFs are available on the Remarks screen:
 
-![Document UDF](./media/document-udf.png)
+![Document UDF](./media/document-udf.webp)
 
 Set up the required value, click the Save icon to save it, and return to the Remarks screen.
 
@@ -80,7 +80,7 @@ Click an arrow icon to go back to the Remarks screen without saving.
 
 Line UDFs are available from specific line screens in the transactions:
 
-![Line UDF](./media/line-udf.png)
+![Line UDF](./media/line-udf.webp)
 
 ### Example
 
@@ -104,7 +104,7 @@ select "BinCode" as "FldValue", "BinCode" as "Desc" from OBIN
 
 The field is available by clicking a UDF icon to set up the details of an item chosen to be transferred.
 
-![Example Result](./media/example-result.png)
+![Example Result](./media/example-result.webp)
 
 ## Base document UDFs
 
@@ -137,15 +137,15 @@ UDFs from a base document are available on the following transactions:
 Choose a base document (one of the bold ones above), for example, Sales Order.
 Add a UDF to "Marketing Documents->Rows" in SAP B1 (click here to find out more about working with UDFs).
 
-![UDF choosing](./media/udf-choosing.png)
+![UDF choosing](./media/udf-choosing.webp)
 
 Create a base document with UDFs filled in:
 
-![Base Document](./media/base-document.png)
+![Base Document](./media/base-document.webp)
 
 In Custom Configuration in the Manager tab, check "Enable UDF Manager," and then choose "Delivery Line" and press "Load". Check "Display" on the UDF that's been added:
 
-![Choosing a line](./media/manager-choosing-delivery-line.png)
+![Choosing a line](./media/manager-choosing-delivery-line.webp)
 
 #### Usage in the application
 
@@ -161,8 +161,8 @@ In Custom Configuration in the Manager tab, check "Enable UDF Manager," and then
 
 - Press the UDF button.
 
-  ![Delivery UDF Button](./media/delivery-udf-button.png)
+  ![Delivery UDF Button](./media/delivery-udf-button.webp)
 
 - UDF should be filled in:
 
-  ![Delivery Base Document](./media/delivery-base-document-udf.png)
+  ![Delivery Base Document](./media/delivery-base-document-udf.webp)

@@ -1,6 +1,6 @@
 # SU
 
-![SU](./media/cc-su.png)
+![SU](./media/cc-su.webp)
 
 **Quantity showed on WMS Item Lists** – checking this checkbox results in displaying quantity packed in an SU.
 

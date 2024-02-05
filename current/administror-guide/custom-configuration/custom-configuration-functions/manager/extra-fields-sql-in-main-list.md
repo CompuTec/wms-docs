@@ -4,19 +4,19 @@ Adding up to two customized values on the Item row on CompuTec WMS transactions 
 
 Using the Filter field, you can filter records on the lists in Main and Document details forms by values in these fields.
 
-![First Query](./media/first-query.png)
+![First Query](./media/first-query.webp)
 
 ## Settings
 
 - To activate the option, go to Custom Configuration > Manager tab > and check Extra Fields SQL in Main List Item on Transaction checkbox.
 
-  ![Extra SQL](./media/extra-sql.png)
+  ![Extra SQL](./media/extra-sql.webp)
 
--  Click the down arrow and a field next to the checkbox to open a drop-down list to choose a required transaction. It is necessary to log in to a database upon this action.
+- Click the down arrow and a field next to the checkbox to open a drop-down list to choose a required transaction. It is necessary to log in to a database upon this action.
 
 - Click Load One to set up the value for the first field (it will be displayed on the spot of Query result 1 from the example screenshot above), click Load Two to set up the value for the second field (it will be displayed on the spot of Query result 2 from the example screenshot above). This leads to the SQL Query form:
-  
-  ![Query Example](./media/query-example.png)
+
+  ![Query Example](./media/query-example.webp)
 
 The right panel holds CompuTec WMS constants for a specific document type (chosen from the list from the previous screenshot).
 Put a required SQL query in the left panel and click Save.
@@ -37,7 +37,7 @@ select isnull ("CodeBars",'') from "OITM" where "ItemCode" = @ItemCode
 
 The result:
 
-![Query Result](./media/query-result.png)
+![Query Result](./media/query-result.webp)
 
 ## Quantity On Hand
 
@@ -53,5 +53,4 @@ SELECT "OnHand" FROM "OITM" WHERE "ItemCode" = @ItemCode
 
 The result:
 
-![On Hand](./media/on-hand.png)
-
+![On Hand](./media/on-hand.webp)

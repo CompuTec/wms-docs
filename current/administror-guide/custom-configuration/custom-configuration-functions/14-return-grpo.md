@@ -1,6 +1,6 @@
 # Return GRPO
 
-![Return GRPO](./media/cc-return-grpo.png)
+![Return GRPO](./media/cc-return-grpo.webp)
 
 **After picking, auto return to:** – defines to which form the application leads after confirming picking quantity for a document line.
 

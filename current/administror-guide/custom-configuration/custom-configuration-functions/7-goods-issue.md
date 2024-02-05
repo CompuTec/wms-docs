@@ -1,6 +1,6 @@
 # Goods Issue
 
-![Goods Issue](./media/cc-goods-issue.png)
+![Goods Issue](./media/cc-goods-issue.webp)
 
 **Default Project** – if a default project is chosen, clicking the right arrow icon on the Project selection form is possible. A default project set up here will be selected automatically.
 

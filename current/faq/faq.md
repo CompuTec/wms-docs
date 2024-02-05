@@ -3,7 +3,7 @@
 ## I have installed WMS components, but it still does not work. What should I do?
 
 1. Configuration
-As well as installing WMS components, you must configure the application, e.g., connection to a database. You can find information about that here.
+   As well as installing WMS components, you must configure the application, e.g., connection to a database. You can find information about that here.
 
 2. Windows firewall inbound rule
 
@@ -27,7 +27,7 @@ To check the connection on ports between server and workstation (in case CompuTe
 
         Example:
 
-![Command](./media/ping-example.png)
+![Command](./media/ping-example.webp)
 
 4. CompuTec WMS API Test
 
@@ -51,7 +51,7 @@ Yes. CompuTec WMS can operate on bins in the warehouse. However, defining bins i
 
 ## Illegal value entered communication on document creation
 
-![Illegal value entered](./media/Illegal_value_entered.png)
+![Illegal value entered](./media/Illegal_value_entered.webp)
 
 One reason may be a lack of Item Details defined for a specific Item Master Data. Perform the Restore Item Details procedure to fix it. Click here to find out more.
 
@@ -69,13 +69,13 @@ You should request CompuTec Support assistance by posting an issue within the Su
 
 ## Data is not displayed correctly
 
-![WMS](./media/wms-decimals-places.png)
+![WMS](./media/wms-decimals-places.webp)
 
 If any data record displayed on a screen is too long, it is 'cut' with the rest represented by '...'. In these cases, you can click and hold the row, and the full name will be displayed:
 
-![Storage Info](./media/CutIndex.png)
+![Storage Info](./media/CutIndex.webp)
 
-![Storage Info](./media/CutQuantity.png)
+![Storage Info](./media/CutQuantity.webp)
 
 ## Cannot Install CompuTec WMS objects to a database
 
@@ -89,7 +89,7 @@ Please copy the query and execute it in SAP Hana Studio before continuing.
 
 :::
 
-![Alert](./media/Alert.png)
+![Alert](./media/Alert.webp)
 
 This system message appears upon attempts to install the CompuTec WMS object on a new database in the HANA version.
 
@@ -161,7 +161,7 @@ On all transactions where you can choose an Item managed by Batches or Serial Nu
 
 An error occurs during the installation of the CompuTec WMS Server:
 
-![Error](./media/screenshot-1.png)
+![Error](./media/screenshot-1.webp)
 
 ### Fix
 
@@ -180,7 +180,7 @@ Click "Save" or "Refresh" on WMS Server Settings
 After pressing "Save" or "Refresh" on WMS Server Settings, it is checked whether SAP Business One DI API and ODBC Driver - respective to the selected server type, are installed.
 
 | Server Type                  | ODBC Driver REquired          | Download Link                                                                                                |
-|------------------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------|
+| ---------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | MSSQL (through 2008 to 2017) | ODBC Driver 13 for SQL Server | https://www.microsoft.com/en-us/download/details.aspx?id=50420                                               |
 | SAP HANA                     | SAP HANA ODBC Driver          | https://help.sap.com/viewer/e9146b36040844d0b1f309bc8c1ba6ab/3.2/en-US/734759c0c1c9440c857da0d366e47dda.html |
 
@@ -196,4 +196,4 @@ A proper Exception/Error is shown in the ServiceManager Log when one of the abov
 
 ### Solution
 
-Please note that the Motorola MC65 device is no longer supported by its producer.  However, Motorola support suggested (as best effort only) using Interchar Delay (DataWedge option) to slow down RDP data sending to a host.
+Please note that the Motorola MC65 device is no longer supported by its producer. However, Motorola support suggested (as best effort only) using Interchar Delay (DataWedge option) to slow down RDP data sending to a host.

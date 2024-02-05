@@ -1,6 +1,6 @@
 # Dispatch Control
 
-![Dispatch Control](./media/cc-dispatch-control.png)
+![Dispatch Control](./media/cc-dispatch-control.webp)
 
 **No. of Catalog numbers scans** – defines a number of scanning of Catalogue numbers, after which the application goes another step.
 

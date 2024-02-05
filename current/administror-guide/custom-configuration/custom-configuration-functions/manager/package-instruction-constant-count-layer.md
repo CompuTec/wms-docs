@@ -4,11 +4,11 @@ Here it is possible to packaging instructions.
 
 1. To use the option, check the highlighted checkbox and click Packaging Instruction button.
 
-![Package Instructions](./media/package-instruction.png)
+![Package Instructions](./media/package-instruction.webp)
 
 2. List of packaging rules form is open. Right-click to add a row (or to resize columns).
 
-![Add Row](./media/add-row.png)
+![Add Row](./media/add-row.webp)
 
 3. Add the required number of rows. Each of these contains the following columns:
 
@@ -29,4 +29,4 @@ PackID – ID of this pack
 Rank – rank of this pack
 Log boxes – mark this checkbox if you want to
 
-![Types](./media/types.png)
+![Types](./media/types.webp)

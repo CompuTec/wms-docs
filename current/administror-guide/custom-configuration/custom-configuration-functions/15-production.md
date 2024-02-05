@@ -2,7 +2,7 @@
 
 ## PF Pick Receipt tab
 
-![Production ProcessForce Pick Receipt](./media/cc-production-pf-pick-receipt.png)
+![Production ProcessForce Pick Receipt](./media/cc-production-pf-pick-receipt.webp)
 
 **PF Pick Receipt PopUp Timer checkpoint** – None, Select the base document, Select Item on the list, Pick quantity to the first line, Save Document
 
@@ -40,7 +40,7 @@
 
 ## PF Pick Order tab
 
-![Pick Order](./media/custom-configuration-after-scanning.png)
+![Pick Order](./media/custom-configuration-after-scanning.webp)
 
 **After scanning the item, auto return to** – choose to go either to the Document Details or stay on the Quantity form after scanning an Item barcode
 
@@ -56,7 +56,7 @@
 
 ## SAP Production Receipt tab
 
-![Custom Configuration](./media/custom-configuration-production-sap-production-receipt.jpg)
+![Custom Configuration](./media/custom-configuration-production-sap-production-receipt.webp)
 
 **8After picking, auto return to:** – defines to which form the application goes back after confirmation of receipt on a document line. The available options: Document Details and Item Details
 
@@ -74,7 +74,7 @@
 
 ## SAP Production Issue tab
 
-![SAP Production Issue](./media/cc-sap-production-issue.png)
+![SAP Production Issue](./media/cc-sap-production-issue.webp)
 
 **Skip Warehouse selection** – the warehouse selection screen is not displayed.
 

@@ -18,23 +18,23 @@ This tool allows defining custom data to be scanned and recognized in barcodes a
 
   (Prefix, Suffix, Scanner Group Separator).
 
-  ![WMS](./media/wms-log-in.png)
+  ![WMS](./media/wms-log-in.webp)
 
-  ![Scanner](./media/wms-scanner.png)
+  ![Scanner](./media/wms-scanner.webp)
 
   The settings in the scanner simulator and the Scanner tab have to be the same:
 
-  ![Scanner](./media/wms-scanner-symulator.png)
+  ![Scanner](./media/wms-scanner-symulator.webp)
 
 ## Usage
 
 Choose the option in the main menu:
 
-![Barcode](./media/wms-barcode-setup.png)
+![Barcode](./media/wms-barcode-setup.webp)
 
 Decoder definition:
 
-![Decoder](./media/wms-barcode-setup-main.png)
+![Decoder](./media/wms-barcode-setup-main.webp)
 
 Here, you can find a list of the already defined custom decoders.
 
@@ -62,7 +62,7 @@ Close – close the window.
 
 ## Decoder Selection rules
 
-![Decoder Selection Rules](./media/wms-decoder-rules-main.png)
+![Decoder Selection Rules](./media/wms-decoder-rules-main.webp)
 
 A list of places in CompuTec WMS with the custom decoders assigned.
 
@@ -82,7 +82,7 @@ Close – close the window.
 
 ## Decoder Definitions
 
-![Code Definition](./media/wms-decoder-definitions.png)
+![Code Definition](./media/wms-decoder-definitions.webp)
 
 Decoder Code – a decoder's ID, filled in automatically
 
@@ -114,7 +114,7 @@ Back – go back to the previous window.
 
 ## Variables Definition
 
-![Input Variables](./media/wms-variables-definition.png)
+![Input Variables](./media/wms-variables-definition.webp)
 
 Here, you can define variables that you can then use in the decoder's rules:
 
@@ -152,7 +152,7 @@ Back – go back to the previous window.
 
 ### SQL – this rule allows proceeding SQL queries.
 
-![Edit Rules](./media/wms-decoder-sql-rule.png)
+![Edit Rules](./media/wms-decoder-sql-rule.webp)
 
 This rule allows the assignment of an SQL query result to output variables. You can use input and internal variable values as parameters. Names of input variables should start with @. Columns of the query result should be named the same as output variables. The query should result in one line.
 
@@ -178,7 +178,7 @@ Back – go back to the previous window.
 
 ### Regexp – this rule allows to get data using regular expressions.
 
-![Edit Rule](./media/wms-decoder-edit-rule.png)
+![Edit Rule](./media/wms-decoder-edit-rule.webp)
 
 In an expression, you have to use named groups, and the names of the groups have to correlate with the output variables.
 
@@ -206,7 +206,7 @@ Back - go back to the previous window.
 
 Using this rule, you can replace some code text or variables.
 
-![Edit Rule](./media/wms-decoder-edit-rule-replace.png)
+![Edit Rule](./media/wms-decoder-edit-rule-replace.webp)
 
 Name – a rule name.,
 
@@ -224,7 +224,7 @@ Back – go back to the previous window.
 
 Here, you can test a decoder using example barcode values.
 
-![Barcode definitions](./media/wms-decoder-testing.png)
+![Barcode definitions](./media/wms-decoder-testing.webp)
 
 Decoder Code – a decoder ID.
 
@@ -242,7 +242,7 @@ Back – go back to the previous window.
 
 ## Assigning rule to spot/screen in CompuTec WMS
 
-![Edit Assignment](./media/wms-decoder-rule-assigning.png)
+![Edit Assignment](./media/wms-decoder-rule-assigning.webp)
 
 You can assign a specific decoder to a chosen transaction or screen in CompuTec WMS.
 
@@ -268,9 +268,9 @@ This option is available only for the new CompuTec WMS Windows client.
 
 Hold the left CTRL while logging in to CompuTec WMS for this screen to be available. The screen will be available after clicking the highlighted icon:
 
-![CompuTec WMS Client](./media/wms-decoder-current-document-details.png)
+![CompuTec WMS Client](./media/wms-decoder-current-document-details.webp)
 
-![Current Form Details](./media/wms-decoder-icon.png)
+![Current Form Details](./media/wms-decoder-icon.webp)
 
 Here, you have access to the following information:
 
@@ -286,7 +286,7 @@ The Business Object tab – here, you can preview variable values available in a
 
 The Decoder tab – here is information on a specific decoder.
 
-![WMS Decoder](./media/wms-decoder-tab.png)
+![WMS Decoder](./media/wms-decoder-tab.webp)
 
 Current Decoder Code – an ID of a decoder assigned to this screen.
 
@@ -358,7 +358,7 @@ From this address, we want to get and pass to CompuTec WMS: Item Code, Batch Num
 
     e. Test.
 
-    ![Test](./media/wms-decoder-testing-2.png)
+    ![Test](./media/wms-decoder-testing-2.webp)
 
 2. The scanned code has the 3202 prefix, which is not supported in CompuTec WMS by default. We want this data to be recognized as quantity with two last singes as decimal places.
 
@@ -394,4 +394,4 @@ d. Save rules and decoder.
 
 e. Test.
 
-![Barcode Definition](./media/wms-decoder-testing-3.png)
+![Barcode Definition](./media/wms-decoder-testing-3.webp)

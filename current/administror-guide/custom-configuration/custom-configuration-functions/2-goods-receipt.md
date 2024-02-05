@@ -1,6 +1,6 @@
 # Goods Receipt
 
-![Goods Receipt](./media/custom-configuration-goods-receipt.png)
+![Goods Receipt](./media/custom-configuration-goods-receipt.webp)
 
 **After picking an Item, auto return to** – the option allows you to choose to which window the application goes after picking an Item.
 
@@ -16,7 +16,7 @@
 
 **Enable adding Items from multiple Warehouses** – if the option is checked, adding Items from different Warehouses is possible, and the Warehouse window will be displayed during the transaction.
 
-**Enable adding Items with empty Bin Code field** – it allows to add Items without Bin Code to a Warehouse with Bin Locations.  An Item with an empty Bin Code will be assigned to the first available bin if enabled.
+**Enable adding Items with empty Bin Code field** – it allows to add Items without Bin Code to a Warehouse with Bin Locations. An Item with an empty Bin Code will be assigned to the first available bin if enabled.
 
 **Show Cost Dimensions** – checking this checkbox adds a button (next to the Back button) on the Quantity form that leads to the Cost Dimensions form.
 

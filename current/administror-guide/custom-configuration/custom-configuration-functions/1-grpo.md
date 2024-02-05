@@ -1,6 +1,6 @@
 # GRPO
 
-![GRPO](./media/grpo.png)
+![GRPO](./media/grpo.webp)
 
 **After picking an item, auto return** – this option allows you to change the window to which the application will go after setting and confirming the quantity for an Item.
 
@@ -20,7 +20,7 @@
 
 **Enable adding Items from multiple Warehouses** – if the option is checked, adding Items from different Warehouses is possible, and the Warehouse window will be displayed during the transaction.
 
-**Enable adding Items with Empty Bin Code field** – it allows to add Items without Bin Code to a Warehouse with Bin Locations.  If enabled, an Item with an empty Bin Code will be assigned to the first available Bin.
+**Enable adding Items with Empty Bin Code field** – it allows to add Items without Bin Code to a Warehouse with Bin Locations. If enabled, an Item with an empty Bin Code will be assigned to the first available Bin.
 
 **Enable negative quantities for Items not managed by batch/serial number** – allows using negative quantities for Items managed neither by Batches nor Serial Numbers.
 

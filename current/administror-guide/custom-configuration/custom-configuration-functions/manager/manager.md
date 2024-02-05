@@ -1,6 +1,6 @@
 # Manager
 
-![Manager](./media/manager.png)
+![Manager](./media/manager.webp)
 
 **Workflow Step Settings** – allows choosing a workflow for a specific transaction. Click here to find out more.
 

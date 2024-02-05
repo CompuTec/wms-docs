@@ -1,6 +1,6 @@
 # Delivery
 
-![Delivery](./media/cc-delivery.png)
+![Delivery](./media/cc-delivery.webp)
 
 **Delivery Workflow** allows you to choose one of three workflows for Pick Lists: Default, Customer-Date, or Date-Customer.
 
@@ -36,7 +36,7 @@ However, when a user creates a Delivery document from a base document, for examp
 
 **Enable scanning and adding Items from distinct Warehouses** – defines whether Items for one Delivery document may or may not be picked from more than one Warehouse.
 
-**Stay on Existing SU List after picking/scanning a SU**  – when the checkbox is unchecked, scanning an SU barcode in the List of SUs screen leads to the Document Details screen (with the scanned SU highlighted). Scanning does not move from the List of SUs screen when the checkbox is checked.
+**Stay on Existing SU List after picking/scanning a SU** – when the checkbox is unchecked, scanning an SU barcode in the List of SUs screen leads to the Document Details screen (with the scanned SU highlighted). Scanning does not move from the List of SUs screen when the checkbox is checked.
 
 **New Delivery: Customer-Warehouse workflow** – after checking this option on New Delivery, first you have to choose Customer, which leads to Warehouse form (instead of default Warehouse-Customer workflow). With this setting, scanning a Serial number or a Batch number on the Warehouse selection window will use the "Fast Scan," i.e., select warehouse, item, and serial/batch with the quantity provided in the scanned barcode and add it to the document.
 
@@ -48,12 +48,12 @@ However, when a user creates a Delivery document from a base document, for examp
 
 **Display SU Only With Item From Base Document** – self-explanatory
 
-**Skip SAP Allocation Quantity** –  allows disabling SAP Business One Batch/Serial Numbers allocation (if needed for some custom changes). The Delivery works within a Warehouse with Bin locations for allocated Batches and Serial Numbers Items.
+**Skip SAP Allocation Quantity** – allows disabling SAP Business One Batch/Serial Numbers allocation (if needed for some custom changes). The Delivery works within a Warehouse with Bin locations for allocated Batches and Serial Numbers Items.
 
 **Freight (Sales Order field) cost** options:
 
-  - **Partial** - default option for CompuTec WMS and SAP Business One (when created from a Pick List)
+- **Partial** - default option for CompuTec WMS and SAP Business One (when created from a Pick List)
 
-  - **Full freight for first Delivery only** - total Freight cost added only to the first Delivery. The following Deliveries have no freight cost assigned (SAP Business One behavior with Delivery from Sales Order).
+- **Full freight for first Delivery only** - total Freight cost added only to the first Delivery. The following Deliveries have no freight cost assigned (SAP Business One behavior with Delivery from Sales Order).
 
-  - Always charge full freight - total freight cost from the base document.
+- Always charge full freight - total freight cost from the base document.

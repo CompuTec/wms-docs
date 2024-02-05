@@ -1,6 +1,6 @@
 # Pick and Pack
 
-![Pick and Pack](./media/cc-pick-and-pack.png)
+![Pick and Pack](./media/cc-pick-and-pack.webp)
 
 **Pick and Pack Workflow** - you can choose the order of data entering. Available options: Default Workflow, Customer-Date Workflow, Date-Customer Workflow.
 

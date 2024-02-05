@@ -8,15 +8,15 @@ The order and availability of some of the forms during a document's creation may
 
 1. To create a Production Issue from a Pick Order, click Pick Order in the main menu.
 
-![Start](./media/PickOrder2.png)
+![Start](./media/PickOrder2.webp)
 
-![New](./media/NewProductionIssue2.png)
+![New](./media/NewProductionIssue2.webp)
 
 2. The Opened Pick Orders window will appear.
 
 Choose a desired Pick Order by clicking its row. Only opened or started Manufacturing Orders are displayed.
 
-![Manufacturing Order](./media/ManufOrder2.png)
+![Manufacturing Order](./media/ManufOrder2.webp)
 
 :::warning
 
@@ -30,35 +30,35 @@ It is also possible to search by document date. In this case, a date without sep
 
 Click an Item row or scan a barcode with an Item prefix to choose it from the list and set its quantity.
 
-![Items to pick Order](./media/ItemsToPickOrder2.png)
+![Items to pick Order](./media/ItemsToPickOrder2.webp)
 
-![Batches](./media/PickOrder_Batches2.png)
+![Batches](./media/PickOrder_Batches2.webp)
 
 The required quantity is automatically entered in the quantity field.
 
-![Quantity](./media/Quantity_Flour2.png)
+![Quantity](./media/Quantity_Flour2.webp)
 
 Click the '+' icon to add Manufacturing Orders not connected to the chosen Pick Order.
 
-![Pick Order](./media/PickOrder_AddItem2.png)
+![Pick Order](./media/PickOrder_AddItem2.webp)
 
 You can also add a Manufacturing Order by scanning a barcode with a document number prefix. Only Manufacturing Orders with the status Open can be added.
 
 Click a required row or scan a barcode with a document number prefix to add a Manufacturing Order to the Items to Pick list.
 
-![Manufacturing Order](./media/ManufOrder2.png)
+![Manufacturing Order](./media/ManufOrder2.webp)
 
 Click the Storage Unit icon to add an SU to a current document. You can add an SU by scanning a barcode with an SU prefix. Only SU with Items from Pick Order and the same Warehouse as on the Items rows can be added.
 
-![Pick Order](./media/PickOrder-AddSU2.png)
+![Pick Order](./media/PickOrder-AddSU2.webp)
 
 Click a required SU row to add it to the document. You can add it by scanning a barcode with an SU prefix.
 
-![Pick Order SU](./media/PickOrder-SU2.png)
+![Pick Order SU](./media/PickOrder-SU2.webp)
 
-![SU](./media/SUDetails2.png)
+![SU](./media/SUDetails2.webp)
 
-![SU](./media/SUAdded2.png)
+![SU](./media/SUAdded2.webp)
 
 Scanning a barcode without a prefix in the Items to Pick list results in checking it for storage unit information.
 
@@ -66,23 +66,23 @@ Scanning a barcode without a prefix in the Items to Pick list results in checkin
 
 You can hide this form by using [the related Custom Configuration ](./../../../administror-guide/custom-configuration/custom-configuration.md) option.
 
-![FIFO](./media/FIFO2.png)
+![FIFO](./media/FIFO2.webp)
 
-![FIFO](./media/FIFO-SU2.png)
+![FIFO](./media/FIFO-SU2.webp)
 
-![FIFO](./media/SUInfo2.png)
+![FIFO](./media/SUInfo2.webp)
 
 5. If the Item is managed by Bin Locations, the 'From Bin' form will appear.
 
 Click a desired Bin row to choose it. You can also scan a barcode (with prefixes or not).
 
-![From Bin](./media/FromBIN2.png)
+![From Bin](./media/FromBIN2.webp)
 
 6. If the Item is managed by Batches, the Batch form will appear.
 
 Click the desired Batch row. A batch can be chosen by scanning a barcode with a prefix.
 
-![Batches](./media/Batches2.png)
+![Batches](./media/Batches2.webp)
 
 7. The Quantity form will appear.
 
@@ -90,11 +90,11 @@ The field is automatically filled in with the required quantity. Type in the des
 
 Quantity can be set by scanning a barcode with a quantity prefix. Click the 'Right Arrow' icon after selecting the quantity.
 
-![Quantity](./media/Quantity12.png)
+![Quantity](./media/Quantity12.webp)
 
 8. In the 'Items to pick order' form, click the 'Right Arrow' button after setting the required quantities for every item.
 
-![Ready](./media/Done2.png)
+![Ready](./media/Done2.webp)
 
 9. Remarks form will appear.
 
@@ -102,16 +102,16 @@ Issue series can be chosen from the drop-down list. This value can be preset in 
 
 Remarks can be added.
 
-![Remarks](./media/Remarks02.png)
+![Remarks](./media/Remarks02.webp)
 
 10. Click the Save icon after setting all the details.
 
-![Remarks](./media/Remarks2.png)
+![Remarks](./media/Remarks2.webp)
 
 11. A message about a document creation will be displayed.
 
 Click 'OK' to finish the creation of a document.
 
-![Created](./media/Created2.png)
+![Created](./media/Created2.webp)
 
 12. Goods Issue has been created and recorded and can be viewed in SAP Business One.

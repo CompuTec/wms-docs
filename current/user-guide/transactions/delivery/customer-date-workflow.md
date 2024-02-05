@@ -12,20 +12,20 @@ Customer-Date workflow allows one to choose Customer first and then a specific d
 
 2. Select a Customer (all Customers are available; some have no document generated).
 
-    ![Customer Selection](./media/customer-selection.png)
+   ![Customer Selection](./media/customer-selection.webp)
 
 3. When you select a Customer who has opened a Pick List, the list of Pick Lists displays.
 
-    ![Customer Selection](./media/customer-selection.png)
+   ![Customer Selection](./media/customer-selection.webp)
 
 4. When you select a document, the Document Details screen opens. Here, you can choose the required quantities for each Item.
 
-    ![Document Details](./media/doc-det.png)
+   ![Document Details](./media/doc-det.webp)
 
 5. You can add another Item, SU, or confirm quantities of already selected Items.
 
-    ![Highlight](./media/doc-det-highlight.png)
+   ![Highlight](./media/doc-det-highlight.webp)
 
 6. After setting the quantities and confirming them, clicking the Next button leads to the Remarks screen.
 
-    ![Remarks](./media/delivery-remarks.png)
+   ![Remarks](./media/delivery-remarks.webp)

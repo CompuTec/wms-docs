@@ -16,12 +16,12 @@ The minimum version of the .NET Framework supported by CompuTec WMS is 4.7.
 
    `reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\full" /v version`
 
-   ![.Net version](./media/prompt-net-version.png)
+   ![.Net version](./media/prompt-net-version.webp)
    and click enter.
 
 2. The result will show the .NET Framework version:
 
-   ![Result](./media/prompt-net-version-result.png)
+   ![Result](./media/prompt-net-version-result.webp)
 
 We recommend you install the latest version of .NET Framework – you can do it using the dedicated tool Windows Update or manually downloading the required files from the Microsoft site:
 
@@ -61,7 +61,7 @@ When working on CompuTec WMS with ProcessForce, it is required for an SAP Busine
 
 For the application to work correctly and to avoid serial numbers being duplicated, you must select Serial Number in Unique Serial Numbers by combo-box in SAP Business One General Settings, Inventory tab:
 
-![General Settings](./media/general-settings-unique.png)
+![General Settings](./media/general-settings-unique.webp)
 
 ## The inbound rule in Windows Firewall
 
@@ -69,35 +69,35 @@ CompuTec WMS Server requires a new inbound rule in Windows Firewall set for a sp
 
 1. Open: Control Panel > System and Security > Windows Firewall:
 
-   ![Firewall](./media/windows-firewall-rule_a.png)
+   ![Firewall](./media/windows-firewall-rule_a.webp)
 
 2. Click the _Advanced settings_:
 
-   ![Firewall - settings](./media/windows-firewall-rule_b.png)
+   ![Firewall - settings](./media/windows-firewall-rule_b.webp)
 
 3. Select _Inbound Rules_ and choose _New Rule..._ in the _Actions_ window - this runs _New Inbound Rule Wizard_:
 
-   ![Inbound rule](./media/windows-firewall-inbond-rule.png)
+   ![Inbound rule](./media/windows-firewall-inbond-rule.webp)
 
 4. Choose _Port_ as the rule type:
 
-   ![Port](./media/windows-firewall-port.png)
+   ![Port](./media/windows-firewall-port.webp)
 
 5. Choose _TCP_ protocol and specify _31002_ local port:
 
-   ![TCP](./media/windows-firewall-tcp.png)
+   ![TCP](./media/windows-firewall-tcp.webp)
 
 6. Choose the _Allow the connection_ action:
 
-   ![Allow the connection](./media/windows-firewall-rule_f.png)
+   ![Allow the connection](./media/windows-firewall-rule_f.webp)
 
 7. Choose all profiles:
 
-   ![All Profiles](./media/windows-firewall-rule_g.png)
+   ![All Profiles](./media/windows-firewall-rule_g.webp)
 
 8. Specify the rule name and click "Finish":
 
-   ![CompuTec License Server](./media/windows-firewall-rule_h.png)
+   ![CompuTec License Server](./media/windows-firewall-rule_h.webp)
 
 ## Anti-malware software
 
@@ -179,14 +179,14 @@ C:\Program Files\CompuTec\CompuTec WMS Server\WMSSettings_Old
 
 Go to the respective sub-folders and run old Settings and Custom Config:
 
-![Custom Config](./media/cc-run.png)
+![Custom Config](./media/cc-run.webp)
 
 Move manually data from the old settings to the respective fields in the currently installed ones:
 
-![Settings](./media/wms-settings.png)
+![Settings](./media/wms-settings.webp)
 
 Note that there is a License Server field in the old settings, and on the new form, there is an SAP Business One SLD Server field (these values can be different in some cases).
 
 Perform the same procedure for Custom Config options.
 
-![Custom Change](./media/custom-change.png)
+![Custom Change](./media/custom-change.webp)

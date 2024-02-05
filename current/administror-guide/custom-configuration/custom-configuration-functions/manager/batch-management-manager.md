@@ -6,21 +6,21 @@ Batch Management Manager's purpose is to define FIFO behavior.
 
 Check the Enable Batch Management Manager checkbox to use the option:
 
-![Batch Maanagement Manager](./media/batch-management-manager.png)
+![Batch Maanagement Manager](./media/batch-management-manager.webp)
 
 1. Set transaction(s) to be configured:
 
-  ![Set Transactions](./media/set-transactions.png)
+![Set Transactions](./media/set-transactions.webp)
 
 2. Choose a transaction to be configured and click Load:
 
-  ![Drop-down List](./media/drop-down-list.png)
+![Drop-down List](./media/drop-down-list.webp)
 
 3. A specific transaction configuration form (Delivery in this case) will be displayed with a list of Warehouses:
 
-  ![Selection Management Batch](./media/selection-management-batch.png)
+![Selection Management Batch](./media/selection-management-batch.webp)
 
-  Columns:
+Columns:
 
     a. Warehouse Code.
 
@@ -38,33 +38,33 @@ Check the Enable Batch Management Manager checkbox to use the option:
 
 Bin localization configuration form:
 
-![Bin Selection](./media/bin-selection.png)
+![Bin Selection](./media/bin-selection.webp)
 
 Columns description:
 
-  a. Bin Code.
+a. Bin Code.
 
-  b. Checking queue option checkbox.
+b. Checking queue option checkbox.
 
-  c. Copying settings from a Warehouse.
+c. Copying settings from a Warehouse.
 
-  d. Copying default settings
+d. Copying default settings
 
-  e. Assigning settings to a specific Bin.
+e. Assigning settings to a specific Bin.
 
 4. Set default Settings.
 
-  ![Settings](./media/settings.png)
+![Settings](./media/settings.webp)
 
-  ![Settings](./media/settings-2.png)
+![Settings](./media/settings-2.webp)
 
-Action: 
+Action:
 
-  - Show only info – a default setting: showing information that a specified Batch is not the first in a queue; it can be skipped.
+- Show only info – a default setting: showing information that a specified Batch is not the first in a queue; it can be skipped.
 
-  - Authorization confirmation login – a specified user authorization is required to skip a Batch in a queue.
+- Authorization confirmation login – a specified user authorization is required to skip a Batch in a queue.
 
-  - Block permanently –  blocking or skipping a Batch is a queue.
+- Block permanently – blocking or skipping a Batch is a queue.
 
 All Transaction checkbox – if the checkbox is checked, the Manager works on every available transaction (and the Set Transaction button is blocked). If the checkbox is unchecked, it is required to choose a specific transaction manually.
 
@@ -80,4 +80,4 @@ Copy all Warehouse and Bin Locations – check this checkbox to assign default s
 
 - SU FIFO settings are now in the SU tab:
 
-  ![SU FIFO](./media/SUFIFO.png)
+  ![SU FIFO](./media/SUFIFO.webp)

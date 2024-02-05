@@ -1,6 +1,6 @@
 # Stock Transfer
 
-![Stock Transfer](./media/stock-transfer.png)
+![Stock Transfer](./media/stock-transfer.webp)
 
 **Show Project selection** – choosing this option results in displaying the Project Selection form before the Remarks form during the creation of a document (to which it is required to add receiving Items)
 

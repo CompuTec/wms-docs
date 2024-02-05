@@ -16,7 +16,7 @@ SSL (Secure Socket Layer) - a protocol to securely transfer encrypted data. The 
 
 - Port addresses are defined for both SSL and non-SSL usage (a default port for non-SSL usage is 30002):
 
-![WMS Server Port SSL](./media/ssl-connection.png)
+![WMS Server Port SSL](./media/ssl-connection.webp)
 
 ## Usage
 
@@ -24,12 +24,12 @@ In CompuTec WMS Client settings, choose the required port:
 
 a. without SSL, HTTP (no changes):
 
-  ![Server Choosing](./media/server-choosing.png)
+![Server Choosing](./media/server-choosing.webp)
 
 b. With SSL (add HTTPS and change the port):
 
-  ![Server Choosing](./media/server-choosing-2.png)
+![Server Choosing](./media/server-choosing-2.webp)
 
 c. The corresponding settings (SSL or non-SSL) must be set. Do the same on the mobile device:
 
-  ![SSL](./media/SSL.png)
+![SSL](./media/SSL.webp)
