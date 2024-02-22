@@ -1,11 +1,13 @@
+---
+sidebar_position: 3
+---
+
 # Goods Issue
 
 Goods Issue documents the company's internal issue of Items or materials.
 
 :::info
-
-Some forms' order and availability during a document's creation may vary depending on individual settings. Click here to find out more.
-
+    Some forms' order and availability during a document's creation may vary depending on individual settings. Click here to find out more.
 :::
 
 ---

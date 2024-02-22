@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Project
 
 Here you can obtain additional information regarding SAP Business One Projects on documents created using CompuTec WMS.
@@ -11,7 +15,5 @@ Default Project for a specific transaction can be set in related Custom Config t
 Priority of assigning Project to a document line:
 
 1. Project set in Dimensions option, Project Line; if not set, then:
-
 2. A Project picked in Project Selection form during the transaction; if not picked, then:
-
 3. A default Project set in Custom Config for a specific transaction.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Return from Delivery
 
 ## Opening Return From Delivery in the application

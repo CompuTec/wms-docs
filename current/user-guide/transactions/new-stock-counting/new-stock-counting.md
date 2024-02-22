@@ -6,9 +6,9 @@ New Stock Counting transactions have been available since the WMS 2.10.15_R1 ver
 
 ### CompuTec WMS database objects installation
 
-<!-- Click [here](./../../../administror-guide/installation/wms-server/wms-server.md/#wms-server) to find out more. -->
+<!-- Click [here](../../../administrator-guide/installation/wms-server/wms-server.md/#wms-server) to find out more. -->
 
-### AppEngine plugin installation (http://localhost:54000/webcontent/uaa/webapp/Index.html)
+### AppEngine plugin installation
 
 Click (ADD LINK) here to download the installation file.
 

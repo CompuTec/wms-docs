@@ -1,3 +1,7 @@
+---
+sidebar_position: 12
+---
+
 # Warehouse Info
 
 The Lookup process allows quickly searching and displaying inventory information on a specific Warehouse, Batch, Serial, and Item.
@@ -18,22 +22,20 @@ Using this option, you can check the Inventory from an Item perspective.
 
 1. Choosing the Item Info option leads to the list of items. Every Item row contains the Item name, Item number, and overall quantity.
 
-   Users can choose an Item manually by scanning or using arrows. A filter on the list can also be used for Item finding.
+    Users can choose an Item manually by scanning or using arrows. A filter on the list can also be used for Item finding.
 
-   Click a specific Item row to get more details.
+    Click a specific Item row to get more details.
 
-   ![List of Items](./media/ListOfItems5.webp)
-
+    ![List of Items](./media/ListOfItems5.webp)
 2. Now we can see the distribution of the Item across Warehouses and Bin Locations:
 
-![Item Details](./media/ItemDetails5.webp)
+    ![Item Details](./media/ItemDetails5.webp)
 
-The header of this screen holds the following information: Item name, Item number, Unit of Measurement, and total quantity from every Warehouse.
+    The header of this screen holds the following information: Item name, Item number, Unit of Measurement, and total quantity from every Warehouse.
 
-Each row holds the following information: Warehouse\Bin Code, Warehouse name, and quantity in this location.
+    Each row holds the following information: Warehouse\Bin Code, Warehouse name, and quantity in this location.
 
-![Item Details](./media/NoneItemDetails5.webp)
-
+    ![Item Details](./media/NoneItemDetails5.webp)
 3. The workflow ends here if Batches or Serials do not manage the Item. Otherwise, clicking a Warehouse line leads to either Batch or Serials details.
 
 ### Batch-managed Items
@@ -76,28 +78,22 @@ Batch/Serial Details for Serial managed Item is similar to the same screen for B
 
 1. The Warehouse Selection form appears after choosing the Warehouse Info option. Click a specific warehouse to check information about it. You can also choose a value by scanning a bar code without a prefix or with a Warehouse/Bin prefix.
 
-![Warehouse](./media/Warehouse5.webp)
-
+    ![Warehouse](./media/Warehouse5.webp)
 2. The Bins form will appear if a picked warehouse has bins defined. Pick one to check the information about it. You can also choose a value by scanning a barcode without a prefix or with a GS1 Warehouse/Bin prefix.
 
-![Bins](./media/Bins5.webp)
-
+    ![Bins](./media/Bins5.webp)
 3. The Items form will appear, presenting Items in a specified location with their quantity and unit of measurement. Click an Item row or scan a barcode with an Item prefix or without a prefix to see Item details (If Batches or Serial Numbers manage it).
 
-![Items](./media/ItemsInWarehouse5.webp)
-
+    ![Items](./media/ItemsInWarehouse5.webp)
 4. If Batches or Serial Numbers manage a specific Item, choosing it will display the Batches or Serial Number form. In the Batches form, a batch name will be displayed with a number of Items in a Batch. If an Item is managed by Serial number, all Items with serial numbers will be shown after clicking an Item row. Choose a batch to see its details.
 
-![Batches](./media/Batches5.webp)
-
+    ![Batches](./media/Batches5.webp)
 5. The Batch Details form will be displayed.
 
-![Batch Details](./media/batchDetails5.webp)
-
+    ![Batch Details](./media/batchDetails5.webp)
 6. From this form, you can check the Batch location by clicking the right arrow:
 
-![Batch locations](./media/Locations5.webp)
-
+    ![Batch locations](./media/Locations5.webp)
 7. The Warehouse Info option only displays information – click the x icon to go to the previous form and return to the main menu again.
 
 ## SU Info

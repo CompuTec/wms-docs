@@ -1,11 +1,13 @@
+---
+sidebar_position: 8
+---
+
 # Managing UoM in CompuTec WMS
 
 This function allows the management of Units of Measurement (UoM) for the following transactions:
 
-- Pick Lists from Transfer Request
-
-- Transfer Request (apart from MOR Transfer Request)
-
+- Pick Lists from Transfer Request,
+- Transfer Request (apart from MOR Transfer Request),
 - Stock Transfer.
 
 ---
@@ -40,13 +42,12 @@ CompuTec WMS takes the UoM from a base SAP Business One document:
 
 ## Stock Transfer / Transfer Request
 
-a. CompuTec WMS takes UoM from the Inventory Data tab.
+1. CompuTec WMS takes UoM from the Inventory Data tab.
 
-![SAP B1](./media/uom-inventory.webp)
+    ![SAP B1](./media/uom-inventory.webp)
+2. Check the highlighted checkbox:
 
-b. Check the highlighted checkbox:
-
-![Custom Configuration](./media/cc-stock-transfer-uom.webp)
+    ![Custom Configuration](./media/cc-stock-transfer-uom.webp)
 
 Now CompuTec WMS takes UoM from the Sales Data tab:
 
@@ -67,7 +68,6 @@ Using a custom query, you can choose a line with any UoM. To do it, you have to 
 ### For MS SQL
 
 ```sql
-
 SELECT TOP 100 PERCENT
 
 T0."ItemCode",
@@ -105,13 +105,11 @@ WHERE (('@WhereFilterValue' = '' AND ''='') OR ('@WhereFilterValue' <> '' AND (@
         @InventoryTransferExistsCondition
 
 ORDER BY T0."ItemCode", u."UomCode"
-
 ```
 
 ### For ProcessForce
 
 ```sql
-
 SELECT T0."ItemCode",  T0."UoM", T0."ItemCode" AS "Field1", T0."ItemName" AS "Field3", SUM(T0."Qty") AS "Field2", T0."UoM" AS "Field4" FROM (
 
         SELECT T0."ItemCode", T0."ItemName", ROUND(T1."OnHand" / g1."BaseQty", 3)  AS "Qty", COALESCE(u."UomCode", T0."InvntryUom") as "UoM", T0."U_CTSRSerialization", 'True' AS "ShowAllUoM"
@@ -177,8 +175,6 @@ GROUP BY T0."ItemCode", T0."ItemName",  T0."UoM"
 @InventoryTransferExistsCondition
 
 ORDER BY T0."ItemCode", T0."UoM"
-
-
 ```
 
 CompuTec WMS will show a list of all UoM, and you can choose a required group.

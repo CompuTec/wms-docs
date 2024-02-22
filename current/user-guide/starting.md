@@ -1,15 +1,17 @@
+---
+sidebar_position: 1
+---
+
 # Starting CompuTec WMS Client
 
 ## Starting CompuTec WMS Settings
 
-1. To run the desktop version of the CompuTec WMS Client, an installation and configuration of the CompuTec WMS Server is required. For further information, click [here](./../administror-guide/installation/wms-server/wms-server.md).
-
+1. To run the desktop version of the CompuTec WMS Client, an installation and configuration of the CompuTec WMS Server is required. For further information, click [here](../administrator-guide/installation/wms-server/overview.md).
 2. To start the CompuTec WMS Client desktop version, choose it from a program list or run the CompuTec.Client.Desktop.exe file in the CompuTec WMS Client installation folder.
-
 3. CompuTec WMS splash screen overview
-   When running the application for the first time, select the Settings button to set up server addresses.
+    When running the application for the first time, select the Settings button to set up server addresses.
 
-   ![WMS Main Screen](./media/wms-main-screen.webp)
+    ![WMS Main Screen](./media/wms-main-screen.webp)
 
 ## General Settings overview
 
@@ -18,11 +20,12 @@
 ### Info icon
 
 You can check the following information by clicking the 'i' icon:
-Server Name
-Company Name
-Database Name
-Server Version
-Client Version
+
+- Server Name
+- Company Name
+- Database Name
+- Server Version
+- Client Version
 
 ### Configuration of WMS client-server connection
 
@@ -51,19 +54,14 @@ Checking a specific checkbox displays the Warehouse Selection form of a particul
 Click Save or Cancel on the General tab to save or discard changes. It leads back to the log in form.
 
 ::: warning
-
-Note that opening the Settings form and clicking Save (even without changing anything) is required to perform after the first installation of the application. This action creates the necessary configuration file to work with the application.
-
+    Note that opening the Settings form and clicking Save (even without changing anything) is required to perform after the first installation of the application. This action creates the necessary configuration file to work with the application.
 :::
 
 1. After saving, the log-in window appears.
 
-   ![Login](./media/wms-login.webp)
-
+    ![Login](./media/wms-login.webp)
 2. Type in a terminal username and password or log in by scanning the Employee Badge.
-
 3. Click here to find out how to create a terminal user. Click a green icon or press Enter. If a terminal user has a barcode assigned, scanning the code logs in the user.
-
 4. The main menu window appears.
 
 The desktop version of CompuTec WMS Client is ready to work with.

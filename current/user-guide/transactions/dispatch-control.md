@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Dispatch Control
 
 Dispatch Control is an option that allows verifying Items against the Business Partner's catalog numbers (before sending it on Delivery).
@@ -8,16 +12,14 @@ Dispatch Control is an option that allows verifying Items against the Business P
 
 ### Custom Configuration
 
-You can check the Custom Configuration options [here](./../../administror-guide/custom-configuration/custom-configuration-functions/6-dispatch-control.md).
+You can check the Custom Configuration options [here](../../administrator-guide/custom-configuration/custom-configuration-functions/dispatch-control.md).
 
 ### SAP Business One
 
 It is required to define Business Partner Catalog Numbers to use the Dispatch Control option. Business Partner Catalog Numbers are numbers assigned to an Item on the BPs side, e.g., on the screenshot below, Active-Item-01 has the following number on the SAP B1 side: Active-Item-01. On the BP side, it is 4.
 
 :::info
-
-Inventory → Item Management → Business Partner Catalog Numbers
-
+    Inventory → Item Management → Business Partner Catalog Numbers
 :::
 
 ![Business Partner Catalog Numbers](./media/bp-catalog-numbers.webp)
@@ -54,6 +56,8 @@ Now you have to enter the BP Part Number for this specific Item:
 
 If you enter a wrong number, the error message appears:
 
-    VDA Part number doesn't match the item
+```text
+VDA Part number doesn't match the item
+```
 
 ![Wrong Numbers](./media/delivery-wrong-numbers.webp)

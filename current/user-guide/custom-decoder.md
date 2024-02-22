@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Custom Decoder
 
 This tool allows defining custom data to be scanned and recognized in barcodes and places within the CompuTec WMS workflow to use them.
@@ -7,24 +11,20 @@ This tool allows defining custom data to be scanned and recognized in barcodes a
 ## Requirements
 
 - CompuTec WMS Server installed
-
 - CompuTec WMS objects installed in the database
-
 - MAUI WMS client installed (Barcoder Setup configuration from the MAUI on Windows level only)
-
 - The latest scanner simulator (for testing)
-
 - Correct configuration in the Scanner tab:
 
-  (Prefix, Suffix, Scanner Group Separator).
+    (Prefix, Suffix, Scanner Group Separator).
 
-  ![WMS](./media/wms-log-in.webp)
+    ![WMS](./media/wms-log-in.webp)
 
-  ![Scanner](./media/wms-scanner.webp)
+    ![Scanner](./media/wms-scanner.webp)
 
-  The settings in the scanner simulator and the Scanner tab have to be the same:
+    The settings in the scanner simulator and the Scanner tab have to be the same:
 
-  ![Scanner](./media/wms-scanner-symulator.webp)
+    ![Scanner](./media/wms-scanner-symulator.webp)
 
 ## Usage
 
@@ -150,7 +150,7 @@ Back – go back to the previous window.
 
 ## Rules
 
-### SQL – this rule allows proceeding SQL queries.
+### SQL – this rule allows proceeding SQL queries
 
 ![Edit Rules](./media/wms-decoder-sql-rule.webp)
 
@@ -176,7 +176,7 @@ Save – save the rule.
 
 Back – go back to the previous window.
 
-### Regexp – this rule allows to get data using regular expressions.
+### Regexp – this rule allows to get data using regular expressions
 
 ![Edit Rule](./media/wms-decoder-edit-rule.webp)
 
@@ -202,7 +202,7 @@ Save – save the rule.
 
 Back - go back to the previous window.
 
-### Replace – this rule allows to change a part of the text.
+### Replace – this rule allows to change a part of the text
 
 Using this rule, you can replace some code text or variables.
 
@@ -261,9 +261,7 @@ Back – go back to the previous window.
 ### Current Form Details – additional information for a specific screen in CompuTec WMS
 
 :::note
-
-This option is available only for the new CompuTec WMS Windows client.
-
+    This option is available only for the new CompuTec WMS Windows client.
 :::
 
 Hold the left CTRL while logging in to CompuTec WMS for this screen to be available. The screen will be available after clicking the highlighted icon:
@@ -306,92 +304,70 @@ Back – go back to the previous window.
 
 ## Examples
 
-1. The scanned code consists of the following URL address: https://address.com/ItemCode/BatchNumber/dd-mm-yyyy.
+1. The scanned code consists of the following URL address: `https://address.com/ItemCode/BatchNumber/dd-mm-yyyy`.
 
-From this address, we want to get and pass to CompuTec WMS: Item Code, Batch Number, and Expire Date and convert the date to YYMMDD format.
+    From this address, we want to get and pass to CompuTec WMS: Item Code, Batch Number, and Expire Date and convert the date to YYMMDD format.
 
-    a. Create a new decoder.
+    1. Create a new decoder.
+    2. Create the following variables:
 
-    b. Create the following variables:
+        1. Internal variables:
 
-            i. Internal variables:
+            1. Day.
+            2. Month.
+            3. Year
+        2. Output variables:
 
-                1. Day.
+            1. BatchNumber (GS1 Code 10, pass to output: enabled).
+            2. ItemCode (GS1 Code 91, pass to output: enabled).
+            3. ExpireDate (GS1 Code 17, pass to output: enabled).
+    3. Create the following rules:
 
-                2. Month.
+        1. Regexp type rule (rule name 1)
 
-                3. Year
+            1. Set the input variables to BARCODE.
+            2. Set the following output variables: BatchNumber, ItemCode, Day, Month, Year.
+            3. Set the following for the regular expressions: `^https?:\/\/.*?\/(?\<ItemCode>[^\/]+)\/(?\<BatchNumber>[^\/]+)\/(?\<Day>\d{2})-(?\<Month>\d{2})-(?\<Year>\d{4})$`.
 
-            ii. Output variables:
+        2. An SQL-type rule (rule name 2).
 
-                1. BatchNumber (GS1 Code 10, pass to output: enabled).
-
-                2. ItemCode (GS1 Code 91, pass to output: enabled).
-
-                3. ExpireDate (GS1 Code 17, pass to output: enabled).
-
-    c. Create the following rules:
-
-            i. Regexp type rule (rule name 1)
-
-                1. Set the input variables to BARCODE.
-
-                2. Set the following output variables: BatchNumber, ItemCode, Day, Month, Year.
-
-                3. Set the following for the regular expressions: ^https?:\/\/.*?\/(?\<ItemCode>[^\/]+)\/(?\<BatchNumber>[^\/]+)\/(?\<Day>\d{2})-(?\<Month>\d{2})-(?\<Year>\d{4})$.
-
-            ii. An SQL-type rule (rule name 2).
-
-                1.  Set the following input variables: Day, Month, Year.
-
-                2. Set the following output variables: ExpireDate.
-
-                3. For the SQL query, set:
+            1. Set the following input variables: Day, Month, Year.
+            2. Set the following output variables: ExpireDate.
+            3. For the SQL query, set:
 
                 ```sql
-
                 SELECT Right('@Year',2) || '@Month' || '@Day' as "ExpireDate" FROM DUMMY
-
                 ```
 
-    d. Save rules and decoder.
-
-    e. Test.
+    4. Save rules and decoder.
+    5. Test.
 
     ![Test](./media/wms-decoder-testing-2.webp)
 
 2. The scanned code has the 3202 prefix, which is not supported in CompuTec WMS by default. We want this data to be recognized as quantity with two last singes as decimal places.
 
-a. Create a decoder.
+    1. Create a decoder.
+    2. Create the following variables (check the USE GS1 Decoder option)
 
-b. Create the following variables (check the USE GS1 Decoder option)
+        1. Input variables:
 
-      i. Input variables:
+            InputQuantity (GS1 Code 3202).
+        2. Output variables:
 
-        InputQuantity (GS1 Code 3202).
+            Quantity (GS1 Code Quantity, pass to output: enabled)
+    3. Create the following rules:
 
-      ii. Output variables:
+        1. An SQL-type rule (rule name 1)
 
-        Quantity (GS1 Code Quantity, pass to output: enabled)
+            1. Set input variables to InputQuantity.
+            2. Set output variables to Quantity.
+            3. Set the following SQL query:
 
-c. Create the following rules:
+                ```sql
+                SELECT CASE WHEN LENGTH('@InputQuantity') > 0 THEN LEFT('@InputQuantity',4) || '.' || RIGHT('@InputQuantity', 2) ELSE '' END AS "Quantity" FROM DUMMY
+                ```
 
-    i. An SQL-type rule (rule name 1)
-
-      1. Set input variables to InputQuantity.
-
-      2. Set output variables to Quantity.
-
-      3.   Set the following SQL query:
-
-      ```sql
-
-      SELECT CASE WHEN LENGTH('@InputQuantity') > 0 THEN LEFT('@InputQuantity',4) || '.' || RIGHT('@InputQuantity', 2) ELSE '' END AS "Quantity" FROM DUMMY
-
-      ```
-
-d. Save rules and decoder.
-
-e. Test.
+3. Save rules and decoder.
+4. Test.
 
 ![Barcode Definition](./media/wms-decoder-testing-3.webp)

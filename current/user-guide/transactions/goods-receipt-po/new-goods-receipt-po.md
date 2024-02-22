@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # New Goods Receipt PO
 
 Choose the Goods Receipt PO option from the main menu:

@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Empty Serial Numbers
 
 Here, you can find a description of managing Empty Serial Numbers Items through CompuTec WMS.
@@ -10,11 +14,11 @@ Here, you can find a description of managing Empty Serial Numbers Items through 
 
 ## Transactions supported in CompuTec WMS
 
-    GRPO
-    Delivery
-    Pick and Pack
-    Stock Transfer (Transfer Request)
-    Stock Counting (planned to be supported).
+- GRPO
+- Delivery
+- Pick and Pack
+- Stock Transfer (Transfer Request)
+- Stock Counting (planned to be supported).
 
 ### GRPO from Purchase Order
 
@@ -144,17 +148,16 @@ Or Bin Locations when this option is turned on:
 
 - With preallocation:
 
-  ![Storage Info](./media/with-preallocation-1.webp)
+    ![Storage Info](./media/with-preallocation-1.webp)
 
-  ![Quantity](./media/with-preallocation-2.webp)
+    ![Quantity](./media/with-preallocation-2.webp)
 
-  ![Document Details](./media/with-preallocation-3.webp)
-
+    ![Document Details](./media/with-preallocation-3.webp)
 - Without preallocation
 
-  ![Storage Info](./media/without-preallocation-1.webp)
+    ![Storage Info](./media/without-preallocation-1.webp)
 
-  ![From Bin](./media/without-preallocation-2.webp)
+    ![From Bin](./media/without-preallocation-2.webp)
 
 Let's choose, e.g., one named (empty Serial Numbers, and the one on the list must always be chosen separately, meaning you cannot pick one already called and one empty and proceed).
 

@@ -1,11 +1,13 @@
 ---
-title: Introduction to WMS
+sidebar_position: 1
 ---
 
-Welcome!
+# Introduction to WMS
 
 :::info
-**New WMS client**
-
+    **New WMS client**
 :::
-![WMS](./index/media/wmslogin-01.webp) ![WMS](./index/media/mainmenu-02.webp)
+
+![WMS](./media/index/wmslogin-01.webp)
+
+![WMS](./media/index/mainmenu-02.webp)

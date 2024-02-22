@@ -1,8 +1,12 @@
+---
+sidebar_position: 2
+---
+
 # Return from GRPO
 
 Goods Return Document can be generated from Goods Receipt PO document posted in SAP Business One System or CompuTec WMS, and user can generate new Goods Return without base document. (An example Goods Receipt PO Document in this guide is posted below).
 
-Custom Configuration for Return GRPO: 14) Return GRPO
+Custom Configuration for Return GRPO: `14) Return GRPO`
 
 ## Opening Return From Delivery in the application
 
