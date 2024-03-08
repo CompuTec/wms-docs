@@ -8,6 +8,4 @@ sidebar_position: 1
     **New WMS client**
 :::
 
-![WMS](./media/index/wmslogin-01.webp)
-
-![WMS](./media/index/mainmenu-02.webp)
+![WMS](./media/index/wmsmenu.webp)
