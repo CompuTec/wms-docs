@@ -32,7 +32,7 @@ Released on 27.03.2024.
 
 :::danger
     From version 2.10.22.1, the new WMS desktop client requires installation Microsoft Windows Desktop Runtime (v8.0.0).
-    [link](http://)https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer?cid=getdotnetcore
+    [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer?cid=getdotnetcore](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer?cid=getdotnetcore)
 :::
 
 Click here to get AppEngine plugin for Stock Counting. <!-- TODO: Add Link -->
