@@ -210,13 +210,9 @@ In the case of Existing SU, choosing an SU with the same Items as in the Pick Li
 
 ![alt text](./media/p35.webp)
 
-1. Pick List availability for users.
-2. Allows choosing an Item from a different location.
-3. Picking Items only by scanning.
-4. Quantity must be confirmed by clicking a button.
-5. Allow to pick quantity greater than on the Pick List (to quantity of the base document).
-6. Allow only pick and pack of allocated quantities.
-7. Hide the SU button.
+1. Hide the SU button.
+2. Picking Items only by scanning.
+3. Quantity must be confirmed by clicking a button.
 
 ## 6. Changes
 
