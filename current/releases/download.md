@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 import Tabs from "@theme/Tabs";
@@ -7,7 +7,7 @@ import TabItem from "@theme/TabItem";
 
 import Releases10 from "../releases-10.json";
 
-# Downloads
+# Download
 
 Here you can download all required CompuTec WMS files.
 
