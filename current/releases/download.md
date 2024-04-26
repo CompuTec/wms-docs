@@ -18,7 +18,7 @@ Here you can download all required CompuTec WMS files.
     - You know the [upgrade instructions](../administrator-guide/upgrade.md).
 :::
 
-:::danger WMS CompuTec Server restart
+:::warning WMS CompuTec Server restart
     It is required to restart CompuTec Server WMS service at least once in 24 hours in order to make it work properly. Click [here](../administrator-guide/installation/wms-server/overview.md#computec-wms-server-automatic-restart) to find out how to set it up using Windows Task Scheduler.
 :::
 
@@ -26,16 +26,16 @@ Here you can download all required CompuTec WMS files.
 
 Released on 27.03.2024.
 
-:::danger
+:::warning
     Due to changes in the licensing mechanism in the 2.10.19 R3/2.9.19 R3 version, it is required to reassign terminal licenses to terminals after the upgrade.
 :::
 
-:::danger
+:::warning
     From version 2.10.22.1, the new WMS desktop client requires installation Microsoft Windows Desktop Runtime (v8.0.0).
     [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer?cid=getdotnetcore](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer?cid=getdotnetcore)
 :::
 
-Click here to get AppEngine plugin for Stock Counting. <!-- TODO: Add Link -->
+Click [here](/docs/appengine/download/wms) to get AppEngine plugin for Stock Counting.
 
 If you use the ProcessForce 9.3 PL14 R10 / 10.0 R14 or later, you have to install CompuTec License Server in 5.11.0.1 or later version and CompuTec WMS in the latest version.
 
@@ -265,3 +265,6 @@ If you use the ProcessForce 9.3 PL14 R10 / 10.0 R14 or later, you have to instal
 1.2.0.20 version: [Download](https://download.computec.one/software/gateway/releases/CompuTec_Gateway_1.2.0.20.msi)
 
 (Click [here](../administrator-guide/computec-gateway-service/computec-gateway-service-installation.md) to find out more)
+
+
+[def]: /docs/appengine/current/download/wms.md
