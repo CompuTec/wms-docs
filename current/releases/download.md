@@ -35,7 +35,7 @@ Released on 30.04.2024.
     [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer?cid=getdotnetcore](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer?cid=getdotnetcore)
 :::
 
-Click [here](/docs/appengine/download/wms) to get AppEngine plugin for Stock Counting.
+Click [here](/docs/appengine/releases/download/wms) to get AppEngine plugin for Stock Counting.
 
 If you use the ProcessForce 9.3 PL14 R10 / 10.0 R14 or later, you have to install CompuTec License Server in 5.11.0.1 or later version and CompuTec WMS in the latest version.
 
@@ -265,6 +265,3 @@ If you use the ProcessForce 9.3 PL14 R10 / 10.0 R14 or later, you have to instal
 1.2.0.20 version: [Download](https://download.computec.one/software/gateway/releases/CompuTec_Gateway_1.2.0.20.msi)
 
 (Click [here](../administrator-guide/computec-gateway-service/computec-gateway-service-installation.md) to find out more)
-
-
-[def]: /docs/appengine/current/download/wms.md
