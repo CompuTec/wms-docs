@@ -4,12 +4,12 @@ sidebar_position: 1
 
 # Pick & Pack
 
-## Support of Storage Units in the Pick and Pack transaction in Computec WMS
+## Support of Storage Units
 
-1. New SU
-2. Existing SU (support only for SUs that have the same Items that are on the Pick List)
+1. New Storage Units
+2. Existing Storage Units (support only for Storage Units that have the same Items that are on the Pick List)
 
-A top bar was added – for displaying an SU that is now in packing mode.
+A top bar was added – for displaying an Storage Unit that is now in packing mode.
 
 The change is related to the Pick List from the following documents:
 
@@ -22,19 +22,21 @@ Support for both preallocation and without it (Custom Configuration: it is possi
 
 ![WMS](./media/WMS.webp)
 
-![piclist](./media/picklist.webp)
+![picklist](./media/picklist.webp)
 
-## The list display will be based on Custom Configuration settings
+## List Display
+
+The list will be displayed based on Custom Configuration settings
 
 1. Standard (all Pick Lists).
 
-    ![alt text](./media/list.webp)
+    ![List](./media/list.webp)
 2. Customer – Date
 
-    ![alt text](./media/customer.webp)
+    ![List](./media/customer.webp)
 3. Date – Customer
 
-    ![alt text](./media/dc.webp)
+    ![List](./media/dc.webp)
 
     ![alt text](./media/dc2.webp)
 
@@ -44,9 +46,9 @@ Support for both preallocation and without it (Custom Configuration: it is possi
     All the data is automatically saved during the picking
 :::
 
-![alt text](./media/p1.webp)
+![Document Details](./media/p1.webp)
 
-![alt text](./media/p2.webp)
+![Document Details](./media/p2.webp)
 
 Buttons:
 
@@ -54,10 +56,10 @@ Buttons:
 - More – a dropdown list
 - Info – base document header remarks.
 - Accept – finishing a Pick List (no the floppy disk button anymore)
-- Add SU – adding a Storage Unit
+- Add Storage Unit – adding a Storage Unit
 
-    1. New SU
-    2. Existing SU
+    1. New Storage Unit
+    2. Existing Storage Unit
 - Back – going back to the document list.
 
 :::info
@@ -79,138 +81,138 @@ Manual and scanning quantity picking stays the same.
 
 ## A significant change
 
-![alt text](./media/p3.webp)
+![Change](./media/p3.webp)
 
 Each Item from now on will have a separate line for localization. The same way it is in SAP Business One.
 
-![alt text](./media/p4.webp)
+![Change](./media/p4.webp)
 
 Without preallocation (the bold font for the proposed location, sorted for the picker).
 
-![alt text](./media/p5.webp)
+![Preallocation](./media/p5.webp)
 
 With preallocation (the list sorted for the picker).
 
-![alt text](./media/p6.webp)
+![Preallocation](./media/p6.webp)
 
 Sorting Items by the closest location added (for speeding up the pick and pack process).
 
-## 1. New SU
+## 1. New Storage Unit
 
-![alt text](./media/p7.webp)
+![Storage Unit](./media/p7.webp)
 
-Choosing a new SU leads to the form.
+Choosing a new Storage Unit leads to the form.
 
 Buttons:
 
-- Back – canceling an SU – it should be Cancel
-- Select all – checking a target Warehouse/Bin for an SU
-- Forward – Document Details creation of an SU and move to the Document Details form
-- Attachment – move to the UDF for the SU form
+- Back – canceling an Storage Unit – it should be Cancel
+- Select all – checking a target Warehouse/Bin for an Storage Unit
+- Forward – Document Details creation of an Storage Unit and move to the Document Details form
+- Attachment – move to the UDF for the Storage Unit form
 
-![alt text](./media/p8.webp)
+![Storage Unit](./media/p8.webp)
 
-After SU is created, its number is displayed in the top bar. It means that the Item collection for this SU is active.
+After SU is created, its number is displayed in the top bar. It means that the Item collection for this Storage Unit is active.
 
-![alt text](./media/p9.webp)
+![Storage Unit](./media/p9.webp)
 
-Clicking the top bar leads to an SU.
+Clicking the top bar leads to an Storage Unit.
 
-![alt text](./media/p10.webp)
+![Storage Unit](./media/p10.webp)
 
-To choose the SU again, you can scan a code (e.g., SU Code) or select the SU manually from the list.
+To choose the Storage Unit again, you can scan a code (e.g., Storage Unit Code) or select the Storage Unit manually from the list.
 
 Buttons:
 
 - Return – Document Details return to the Document Details form
-- Search SU – an SU again (it will be displayed in the top bar)
-- SU Info – SU information
+- Search Storage Unit – an Storage Unit again (it will be displayed in the top bar)
+- Storage Unit Info – Storage Unit information
 - Back – go back to the Document Details form
-- Remove – removing from the SU list.
+- Remove – removing from the Storage Unit list.
 
-![alt text](./media/p11.webp)
+![Storage Unit](./media/p11.webp)
 
-When the SU is chosen, clicking the line again opens a form.
+When the Storage Unit is chosen, clicking the line again opens a form.
 
-Items available in the SU are displayed here. You can also edit them from here.
+Items available in the Storage Unit are displayed here. You can also edit them from here.
 
 Buttons:
 
 - Return – go back to the Document Details form
-- SU Warehouse – change the target location for the SU
-- SU Info – SU information
+- SU Warehouse – change the target location for the Storage Unit
+- SU Info – Storage Unit information
 - Back – go back to the Document Details form
 - Remove – remove from the SU list
 
-![alt text](./media/p12.webp)
+![Storage Unit](./media/p12.webp)
 
-Editing Quantity is possible directly from the Item line level and by entering a line in the SU.
+Editing Quantity is possible directly from the Item line level and by entering a line in the Storage Unit.
 
-![alt text](./media/p13.webp)
+![Storage Unit](./media/p13.webp)
 
-![alt text](./media/p14.webp)
+![Storage Unit](./media/p14.webp)
 
-![alt text](./media/p15.webp)
+![Storage Unit](./media/p15.webp)
 
 Editing quantity in SU does not require SU to be loaded in the top bar. You can do in from this level.
 
-## 2. Existing SU
+## 2. Existing Storage Unit
 
-![alt text](./media/p16.webp)
+![Storage Unit](./media/p16.webp)
 
-![alt text](./media/p17.webp)
+![Storage Unit](./media/p17.webp)
 
 Buttons:
 
 Return, Back – go back to the document Details form
 
-In the case of Existing SU, choosing an SU with the same Items as in the Pick List will be possible
+In the case of Existing Storage Unit, choosing an Storage Unit with the same Items as in the Pick List will be possible
 
-## 3. Preallocation
+## 3. Pre-allocation
 
-### 3.1 Bin-managed Warehouse or without Bins when we do not use preallocation
-
-1. None Items
-
-    ![alt text](./media/p18.webp)
-    ![alt text](./media/p19.webp)
-    ![alt text](./media/p20.webp)
-2. Batch Items
-
-    ![alt text](./media/p21.webp)
-    ![alt text](./media/p22.webp)
-    ![alt text](./media/p23.webp)
-    ![alt text](./media/p24.webp)
-3. Serial Items
-
-    ![alt text](./media/p25.webp)
-    ![alt text](./media/p26.webp)
-    ![alt text](./media/p27.webp)
-
-### 3.2 When the preallocation is used
+### Scenario 1: When pre-allocation is not used
 
 1. None Items
 
-    ![alt text](./media/p28.webp)
-    ![alt text](./media/p29.webp)
+    ![Preallocation](./media/p18.webp)
+    ![Preallocation](./media/p19.webp)
+    ![Preallocation](./media/p20.webp)
 2. Batch Items
 
-    ![alt text](./media/p30.webp)
-    ![alt text](./media/p31.webp)
+    ![Preallocation](./media/p21.webp)
+    ![Peallocation](./media/p22.webp)
+    ![Preallocation](./media/p23.webp)
+    ![Preallocation](./media/p24.webp)
 3. Serial Items
 
-    ![alt text](./media/p32.webp)
-    ![alt text](./media/p33.webp)
+    ![Serial Items](./media/p25.webp)
+    ![Serial Items](./media/p26.webp)
+    ![Serial Items](./media/p27.webp)
 
-## 4. Scanning management
+### Scenario 2:  When pre-allocation is used
 
-![alt text](./media/p34.webp)
+1. None Items
+
+    ![None Items](./media/p28.webp)
+    ![None Items](./media/p29.webp)
+2. Batch Items
+
+    ![Batch Items](./media/p30.webp)
+    ![Batch Items](./media/p31.webp)
+3. Serial Items
+
+    ![Serial Items](./media/p32.webp)
+    ![Serial Items](./media/p33.webp)
+
+## 4. Scanning Management
+
+![Scanning Management](./media/p34.webp)
 
 ## 5. Custom Configuration
 
-![alt text](./media/p35.webp)
+![Custom Configuration](./media/p35.webp)
 
-1. Hide the SU button.
+1. Hide the Storage Unit button.
 2. Picking Items only by scanning.
 3. Quantity must be confirmed by clicking a button.
 
@@ -219,12 +221,12 @@ In the case of Existing SU, choosing an SU with the same Items as in the Pick Li
 1. Document Details
 Items displayed the way they are on the Pick List, not like on the Sales Order. (On Sales Order, there can be one line, but if it is going to be taken from two locations, then on the Pick List, it will be split into two lines)
 
-    ![alt text](./media/p36.webp)
+    ![Changes](./media/p36.webp)
 2. Locations also will be available in the list.
 3. A possibility to scan:
 
     1. Item Code, Barcode, Batch / Serial Number, Item + Batch / Serial Numbers,\
-    2. SU/SSCC:
+    2. Storage Unit/SSCC:
 
         - new (not assigned to any of the locations)
         - existing, containing only Items from the Pick List
@@ -232,4 +234,4 @@ Items displayed the way they are on the Pick List, not like on the Sales Order. 
     3. Location.
 
         After scanning a location, only Items with quantity picked from this location are displayed (or just present in this location if they were not assigned).
-    4. Adding SU.
+    4. Adding Storage Unit.
